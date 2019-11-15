@@ -10,7 +10,7 @@ from server.db import session
 class Point:
     ts: int
     deviceid: str
-    floor: int
+    floor: str
     lat: float
     long: float
 
