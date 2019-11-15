@@ -1,4 +1,7 @@
 from dataclasses import dataclass
+from typing import List
+
+from cassandra.query import BatchStatement
 
 from server.db import session
 
@@ -17,5 +20,8 @@ point_insert = session.prepare(
 )
 
 
-def save(point: Point):
-    session.execute_async(point_insert, (point.ts, point.deviceid, point.floor, point.lat, point.long))
+def save(points: List[Point]):
+    batch = BatchStatement()
+    for point in points:
+        batch.add(point_insert, (point.ts, point.deviceid, point.floor, point.lat, point.long))
+    session.execute_async(batch)

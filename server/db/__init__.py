@@ -1,5 +1,6 @@
 from os import path
 
+import cassandra
 from cassandra.auth import PlainTextAuthProvider
 from cassandra.cluster import Cluster
 
