@@ -1,20 +1,26 @@
-from os import path
+from sqlalchemy import create_engine, orm
+from sqlalchemy.ext.declarative import declarative_base
 
-from cassandra.auth import PlainTextAuthProvider
-from cassandra.cluster import Cluster
+from server.common import config, DB_POOL_SIZE
 
-from server.common import config
 
-db = config['db']
-auth_provider = PlainTextAuthProvider(username=db['user'], password=db['pass'])
-
-ssl_options = {'ca_certs': path.dirname(__file__) + '/ca.pem'}
-
-cluster = Cluster(
-    contact_points=[db['host']],
-    port=int(db['port']),
-    auth_provider=auth_provider,
-    ssl_options=ssl_options
+_url = 'postgresql://{}:{}@{}:{}/{}'.format(
+    config['db']['user'],
+    config['db']['pass'],
+    config['db']['host'],
+    config['db']['port'],
+    config['db']['db']
 )
-session = cluster.connect()
-session.execute(f"use {db['keyspace']}")
+
+MAX_OVERFLOW = 5
+engine = create_engine(_url, client_encoding='utf8', pool_size=DB_POOL_SIZE, max_overflow=MAX_OVERFLOW)
+sessionmaker = orm.sessionmaker(bind=engine)
+Base = declarative_base()
+
+
+def get_session() -> orm.Session:
+    return sessionmaker()
+
+
+def db_close():
+    sessionmaker.close_all()

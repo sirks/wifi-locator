@@ -2,7 +2,20 @@ import json
 from os import walk
 
 from server.db import points
-from server.db.points import fetch
+from server.db.Point import Point
+
+floors = {
+    '0': 0,
+    '0krs': 0,
+    '0-krs': 0,
+    '1': 1,
+    '1krs': 1,
+    '1-krs': 1,
+    '2': 2,
+    '2 krs': 2,
+    '3': 3,
+    '3krs': 3
+}
 
 
 def parse_files():
@@ -25,11 +38,11 @@ def parse_files():
 
                 deviceId = notification['deviceId']
                 timest = notification['timestamp']
-                floor = notification['hierarchyDetails']['floor']['name']
+                floor = floors[notification['hierarchyDetails']['floor']['name']]
                 lat = notification['geoCoordinate']['latitude']
                 lon = notification['geoCoordinate']['longitude']
 
-                batch.append(points.Point(timest, deviceId, floor, lat, lon))
+                batch.append(Point(timest, deviceId, floor, lat, lon))
                 if len(batch) >= 99:
                     points.save(batch)
                     batch = []
@@ -38,10 +51,5 @@ def parse_files():
 
 
 if __name__ == '__main__':
-    print(fetch('00:00:68:7d:04:fb'))
-    # points.save([
-    #     points.Point(123, 'qwe', '2', 123.456, 654.321),
-    #     points.Point(122, 'qwe', '2', 123.456, 654.321)
-    # ])
-    # parse_files()
-    # sleep(9)
+    # print(fetch('00:00:68:7d:04:fb'))
+    parse_files()

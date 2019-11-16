@@ -24,7 +24,7 @@ def update_points(points_: List[Point]):
     path.ts = time()
 
 
-async def handle_client(websocket: WebSocketServerProtocol, uri):
+async def subscribe(websocket: WebSocketServerProtocol, uri):
     log.info('client subscribed')
     last_shown = time()
     while websocket.open:
@@ -37,7 +37,7 @@ async def handle_client(websocket: WebSocketServerProtocol, uri):
     log.info('client unsubscribed')
 
 
-start_server = websockets.serve(handle_client, "localhost", 8888)
+start_server = websockets.serve(subscribe, "localhost", 8888)
 
 if __name__ == '__main__':
     loop.run_until_complete(start_server)
