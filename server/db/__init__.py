@@ -1,13 +1,10 @@
 from os import path
 
-# import cassandra
 from cassandra.auth import PlainTextAuthProvider
 from cassandra.cluster import Cluster
 
 from server.common import config
 
-CONCURRENCY_LEVEL = 32
-TOTAL_QUERIES = 10000
 db = config['db']
 auth_provider = PlainTextAuthProvider(username=db['user'], password=db['pass'])
 
