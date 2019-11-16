@@ -6,7 +6,7 @@ from typing import Callable, List
 import aiohttp
 from aiohttp import ClientSession
 
-from server.common import loop
+from server.common import loop, log
 from server.db import points
 from server.db.points import Point
 
@@ -60,8 +60,12 @@ async def get_points_once(session: ClientSession):
             deviceId = notification['deviceId']
             timestamp = notification['timestamp']
             floor = FLOORS[notification['hierarchyDetails']['floor']['name']]
+            confidence = notification['confidenceFactor']
 
-            batch.append(Point(timestamp, deviceId, floor, lat, long))
+            point = Point(timestamp, deviceId, floor, lat, long, confidence)
+            batch.append(point)
+            # if deviceId == '00:00:8b:68:e4:fd':
+            #     log.info('I C U')
             if len(batch) >= 999:
                 points.save(batch)
                 batch = []

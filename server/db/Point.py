@@ -10,13 +10,15 @@ class Point(Base):
     floor: int = Column(Integer(), nullable=False)
     lat: float = Column(Float(), nullable=False)
     long: float = Column(Float(), nullable=False)
+    confidence: float = Column(Integer(), nullable=False)
 
-    def __init__(self, ts: int, deviceid: str, floor: int, lat: float, long: float):
+    def __init__(self, ts: int, deviceid: str, floor: int, lat: float, long: float, confidence: int):
         self.ts = ts
         self.deviceid = deviceid
         self.floor = floor
         self.lat = lat
         self.long = long
+        self.confidence = confidence
 
 
 if __name__ == '__main__':

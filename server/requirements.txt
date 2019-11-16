@@ -1,2 +1,4 @@
 websockets
 sqlalchemy
+aiohttp
+pycopg

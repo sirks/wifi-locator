@@ -9,7 +9,7 @@ def save(points: List[Point]):
     ses = get_session()
     insert_sql = 'insert into points values '
     insert_sql += ','.join(
-        f"({point.ts},'{point.deviceid}',{point.floor},{point.lat},{point.long})"
+        f"({point.ts},'{point.deviceid}',{point.floor},{point.lat},{point.long},{point.confidence})"
         for point in points
     )
     insert_sql += ' on conflict do nothing'
