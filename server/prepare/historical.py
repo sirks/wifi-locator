@@ -35,15 +35,18 @@ def parse_files():
 
             for notif in data:
                 notification = notif['notifications'][0]
-
+                lat = notification['geoCoordinate']['latitude']
+                if not(60.1844 < lat < 60.1863):
+                    continue
+                long = notification['geoCoordinate']['longitude']
+                if not(24.822 < long < 24.8266):
+                    continue
                 deviceId = notification['deviceId']
                 timest = notification['timestamp']
                 floor = floors[notification['hierarchyDetails']['floor']['name']]
-                lat = notification['geoCoordinate']['latitude']
-                lon = notification['geoCoordinate']['longitude']
 
-                batch.append(Point(timest, deviceId, floor, lat, lon))
-                if len(batch) >= 99:
+                batch.append(Point(timest, deviceId, floor, lat, long))
+                if len(batch) >= 999:
                     points.save(batch)
                     batch = []
 
