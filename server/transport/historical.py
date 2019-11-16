@@ -1,9 +1,7 @@
-from time import sleep
-
-from server.db import points
 import json
 from os import walk
 
+from server.db import points
 from server.db.points import fetch
 
 
@@ -40,7 +38,7 @@ def parse_files():
 
 
 if __name__ == '__main__':
-    print(fetch('00:00:64:7d:88:95'))
+    print(fetch('00:00:68:7d:04:fb'))
     # points.save([
     #     points.Point(123, 'qwe', '2', 123.456, 654.321),
     #     points.Point(122, 'qwe', '2', 123.456, 654.321)
