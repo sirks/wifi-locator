@@ -57,7 +57,7 @@ function Point({color}) {
       } else {
         setIndex(index + 1);
       }
-    }, 1000);
+    }, 5000);
   }, [index, data.length]);
 
   return (
