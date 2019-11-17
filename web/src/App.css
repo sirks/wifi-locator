@@ -10,16 +10,11 @@ body,
 }
 
 .point {
-  width: 20px;
-  height: 20px;
-  border-radius: 10px;
-  background: blue;
-  position: relative;
+  width: 10px;
+  height: 10px;
+  border-radius: 5px;
+  position: absolute;
   transition: all 1s;
-}
-
-body {
-  background: black;
 }
 
 #root {
@@ -29,15 +24,16 @@ body {
 }
 
 .wrapper {
-  background: white;
+  background-image: url('./assets/plan.jpg');
+  background-size: cover;
   position: relative;
   width: 100vw;
-  height: 70vw;
+  height: 64vw;
 }
 
-@media (min-aspect-ratio: 100/70) {
+@media (min-aspect-ratio: 960/616) {
   .wrapper {
-    width: 142vh;
+    width: 156vh;
     height: 100vh;
   }
 }

@@ -3,31 +3,30 @@ import Point from "./Point";
 
 import "./App.css";
 
-let timeout = null;
+const COLOR_COUNT = 99;
+
+const randomColor = () => '#' + Math.floor(Math.random() * 16777215).toString(16);
 
 function App() {
-  const [index, setIndex] = useState(0);
-  const [data, setData] = useState([]);
+
+  const [colors, setColors] = useState([]);
 
   useEffect(() => {
-    clearTimeout(timeout);
-    timeout = setTimeout(() => {
-      if (index >= data.length - 1) {
-        fetch('http://localhost:5000/points')
-        .then(response => response.json())
-        .then(json => setData(json))
-        .finally(() => setIndex(0))
-      } else {
-        setIndex(index + 1);
+    setTimeout(() => {
+      if (colors.length < COLOR_COUNT) {
+        setColors([...colors, randomColor()]);
       }
     }, 1000);
-  }, [index, data.length]);
+  }, [colors]);
 
-  console.log(data, index);
+
+  // const colors = Array(16).fill('').map(()=>'#'+Math.floor(Math.random()*16777215).toString(16));
+  // console.log(colors);
+  // debugger;
 
   return (
     <div className="wrapper">
-      {data[index] && <Point latitude={data[index].lat} longitude={data[index].long}/>}
+      {colors.map(color => <Point color={color} key={color}/>)}
     </div>
   );
 }
