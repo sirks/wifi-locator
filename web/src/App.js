@@ -16,7 +16,7 @@ function App() {
       if (colors.length < COLOR_COUNT) {
         setColors([...colors, randomColor()]);
       }
-    }, 1000);
+    }, 5000);
   }, [colors]);
 
   return (
