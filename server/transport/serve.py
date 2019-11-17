@@ -1,44 +1,26 @@
-import asyncio
-from dataclasses import dataclass
-from time import time
-from typing import List
+from random import choice
 
-import websockets
-from websockets import WebSocketServerProtocol
+from flask import Flask
+from flask_cors import CORS
 
-from server.common import loop, log
-from server.db.points import Point
+from server.db.points import fetch_active, fetch
 
 
-@dataclass
-class Path:
-    ts: float
-    points: List[Point]
+app = Flask(__name__)
+CORS(app)
+
+active_device_ids = fetch_active()
 
 
-path = Path(time(), [])
+@app.route('/points')
+def points():
+    device_id = choice(active_device_ids)
+    return str([{'lat': point.lat, 'long': point.long, 'floor': point.floor} for point in fetch(device_id)])
 
 
-def update_points(points_: List[Point]):
-    path.points = [(p.ts, p.long, p.lat) for p in points_]
-    path.ts = time()
+def start():
+    app.run()
 
 
-async def subscribe(websocket: WebSocketServerProtocol, uri):
-    log.info('client subscribed')
-    last_shown = time()
-    while websocket.open:
-        if path.ts > last_shown:
-            # await websocket.send(1)
-            await websocket.send(str(path.points))
-            last_shown = path.ts
-            log.info('data sent')
-        await asyncio.sleep(1)
-    log.info('client unsubscribed')
-
-
-start_server = websockets.serve(subscribe, "localhost", 8888)
-
-if __name__ == '__main__':
-    loop.run_until_complete(start_server)
-    loop.run_forever()
+if __name__ == "__main__":
+    start()

@@ -1,4 +1,5 @@
 websockets
 sqlalchemy
 aiohttp
-pycopg
+flask
+flask-cors

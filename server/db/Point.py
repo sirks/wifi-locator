@@ -20,6 +20,9 @@ class Point(Base):
         self.long = long
         self.confidence = confidence
 
+    def __str__(self):
+        return f'{self.ts},{self.deviceid},{self.floor},{self.lat},{self.long},{self.confidence}'
+
 
 if __name__ == '__main__':
     Point.metadata.create_all(engine)

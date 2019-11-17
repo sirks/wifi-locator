@@ -1,13 +1,11 @@
 import asyncio
 import json
 import traceback
-from typing import Callable, List
 
 import aiohttp
 from aiohttp import ClientSession
 
 from server.common import loop, log
-from server.db import points
 from server.db.points import Point
 
 URL = 'http://13.48.149.61:8000/notifycache.json'
@@ -25,18 +23,17 @@ FLOORS = {
 }
 
 suspects = [
-    '00:00:83:57:e6:c1',
-    # '00:00:f3:fe:cc:00',
-    # '00:00:43:65:92:70',
-    # '00:00:52:fd:9a:aa',
-    # '00:00:62:3d:22:b2',
+    '00:00:ed:57:a2:34',
+    '00:00:77:b4:4e:62',
 ]
 
 
-async def listen(callback: Callable[[List[Point]], None]):
-    while True:
-        await asyncio.sleep(5)
-        callback(points.fetch('00:00:31:92:96:4b'))
+# _lat: np.ndarray = np.array([60.18539896897931])
+# _long: np.ndarray = np.array([24.824788179242226])
+
+# fig = plt.figure()
+# ax = fig.add_subplot(111)
+# ax.scatter(_lat, _long, s=1, c='r')
 
 
 async def manage_points():
@@ -72,13 +69,13 @@ async def get_points_once(session: ClientSession):
 
             point = Point(timestamp, deviceId, floor, lat, long, confidence)
             batch.append(point)
-            if deviceId in suspects and confidence <= 32:
+            if deviceId in suspects:
+                # global _lat, _long
+                # _lat = np.append(_lat, [lat])
+                # _long = np.append(_long, [long])
+                # ax.scatter(_lat, _long, s=1, c='r')
+                # plt.pause(0.1)
                 log.info(point)
-                # log.info('I C U')
-            # if len(batch) >= 999:
-            #     points.save(batch)
-            #     batch = []
-        # points.save(batch)
     except:
         traceback.print_exc()
 
