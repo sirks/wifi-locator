@@ -18,7 +18,7 @@ const getY = point => (LAT_MAX - point.lat) / LAT_DIFF * 100;
 
 const UltimateDogo = ({fill}) => {
   return (
-    <svg width="30px" height="30px" viewBox="0 0 254 276" version="1.1" xmlns="http://www.w3.org/2000/svg">
+    <svg width="30px" height="27px" viewBox="0 0 254 276" version="1.1" xmlns="http://www.w3.org/2000/svg">
       <g id="#000000ff">
         <path fill="#000000" opacity="1.00"
               d=" M 67.04 28.07 C 67.51 21.27 67.18 14.04 70.39 7.83 C 71.58 17.76 73.36 27.62 76.00 37.27 C 76.42 39.60 77.70 42.70 75.52 44.55 C 72.31 46.98 68.94 49.29 65.28 51.01 C 66.19 43.39 66.39 35.71 67.04 28.07 Z"/>
