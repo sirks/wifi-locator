@@ -10,9 +10,10 @@ body,
 }
 
 .point {
-  width: 10px;
-  height: 10px;
-  border-radius: 5px;
+  /*background-image: url(./assets/7Sy.svg);*/
+  /*width: 20px;*/
+  /*height: 20px;*/
+  /*border-radius: 5px;*/
   position: absolute;
   transition: all 1s;
 }
@@ -24,11 +25,18 @@ body,
 }
 
 .wrapper {
-  background-image: url('./assets/plan.jpg');
+  background-image: url(./assets/plan.jpg);
   background-size: cover;
   position: relative;
   width: 100vw;
   height: 64vw;
+  color: blue;
+}
+
+.wrapper img {
+  width: 20px;
+  height: 20px;
+  fill: red;
 }
 
 @media (min-aspect-ratio: 960/616) {
@@ -36,4 +44,12 @@ body,
     width: 156vh;
     height: 100vh;
   }
+}
+
+.wow {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  color: lightgray;
+  font-size: 60px;
 }

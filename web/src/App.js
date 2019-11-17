@@ -27,6 +27,9 @@ function App() {
   return (
     <div className="wrapper">
       {colors.map(color => <Point color={color} key={color}/>)}
+      <h1 className="wow">
+        Much WoW!
+      </h1>
     </div>
   );
 }
