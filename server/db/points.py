@@ -29,7 +29,7 @@ def fetch(device_id: str) -> List[Point]:
 
 def fetch_active() -> List[str]:
     ses = get_session()
-    sql = 'select deviceid from points group by deviceid having count(1)>99'
+    sql = 'select deviceid from points group by deviceid having count(1) between 2 and 9'
     reuslt: ResultProxy = ses.execute(sql)
     ses.close()
     return [d[0] for d in reuslt.fetchall()]

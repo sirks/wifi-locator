@@ -1,3 +1,4 @@
+import json
 from random import choice
 
 from flask import Flask
@@ -15,7 +16,7 @@ active_device_ids = fetch_active()
 @app.route('/points')
 def points():
     device_id = choice(active_device_ids)
-    return str([{'lat': point.lat, 'long': point.long, 'floor': point.floor} for point in fetch(device_id)])
+    return json.dumps([{'lat': point.lat, 'long': point.long, 'floor': point.floor} for point in fetch(device_id)])
 
 
 def start():

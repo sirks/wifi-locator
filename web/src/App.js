@@ -1,28 +1,44 @@
-import React, { useState, useEffect } from "react";
+import React, {useEffect, useState} from "react";
 import Point from "./Point";
 
 import "./App.css";
 
-import list from "./assets/wifidata/notify.json";
-
-const DATA_LIST = list.map(item => ({
-  ...item.notifications[0].geoCoordinate
-}));
-
 let timeout = null;
+
 function App() {
   const [index, setIndex] = useState(0);
+  const [done, setDone] = useState(true);
+  const [data, setData] = useState([]);
 
   useEffect(() => {
-    clearTimeout(timeout);
+    if (done) {
+      fetch('http://localhost:5000/points')
+      .then(response => response.json())
+      .then(json => setData(json))
+      .finally(() => {
+        setDone(false);
+        setIndex(0);
+      })
+    }
+  }, [done]);
+
+
+  useEffect(() => {
+    // clearTimeout(timeout);
     timeout = setTimeout(() => {
-      setIndex(index >= DATA_LIST.lenght - 1 ? 0 : index + 1);
+      if (index >= data.length - 1) {
+        setDone(true);
+      } else {
+        setIndex(index + 1);
+      }
     }, 3000);
   }, [index]);
 
+  console.log(data, index, done);
+
   return (
     <div className="wrapper">
-      <Point latitude={DATA_LIST[index].latitude} longitude={DATA_LIST[index].longitude} />
+      {data[index] && <Point latitude={data[index].lat} longitude={data[index].long}/>}
     </div>
   );
 }
