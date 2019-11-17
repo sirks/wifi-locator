@@ -1,0 +1,2678 @@
+[
+  {
+    "notifications": [
+      {
+        "notificationType": "locationupdate",
+        "subscriptionName": "Vare",
+        "eventId": 41732517,
+        "locationMapHierarchy": "Otaniemi>V\u00e4re>1",
+        "locationCoordinate": { "x": 235.44597, "y": 252.55223, "z": 0.0, "unit": "FEET" },
+        "geoCoordinate": {
+          "latitude": 60.18529488738063,
+          "longitude": 24.824708893047003,
+          "unit": "DEGREES"
+        },
+        "confidenceFactor": 24.0,
+        "apMacAddress": "NOT APPLICABLE",
+        "associated": false,
+        "username": "NOT APPLICABLE",
+        "ipAddress": ["NOT APPLICABLE"],
+        "ssid": "NOT APPLICABLE",
+        "band": "NOT APPLICABLE",
+        "floorId": "-9013405199015870101",
+        "floorRefId": "-9013405199015870101",
+        "entity": "WIRELESS_CLIENTS",
+        "deviceId": "00:00:0d:6a:ac:5d",
+        "lastSeen": "2019-11-04T16:50:53.573+0200",
+        "rawLocation": { "rawX": -999.0, "rawY": -999.0, "unit": "FEET" },
+        "tagVendorData": null,
+        "bleTagInfo": null,
+        "locComputeType": "RSSI",
+        "manufacturer": "Unknown",
+        "maxDetectedRssi": {
+          "apMacAddress": "f4:db:e6:85:7c:40",
+          "band": "IEEE_802_11_B",
+          "slot": 0,
+          "rssi": -42,
+          "antennaIndex": 0,
+          "lastHeardInSeconds": 40
+        },
+        "hierarchyDetails": {
+          "campusParents": null,
+          "campus": { "id": "-9013405199015870347", "name": "Otaniemi" },
+          "building": { "id": "-9013405199015870103", "name": "V\u00e4re" },
+          "floor": { "id": "-9013405199015870101", "name": "1" },
+          "zones": null
+        },
+        "rssiEntries": [
+          {
+            "apMacAddress": "f4:db:e6:85:7c:40",
+            "band": "IEEE_802_11_B",
+            "slot": 0,
+            "antennaIndex": 0,
+            "rssi": -42,
+            "lastHeardSecs": 40
+          },
+          {
+            "apMacAddress": "f4:db:e6:85:7c:40",
+            "band": "IEEE_802_11_B",
+            "slot": 0,
+            "antennaIndex": 1,
+            "rssi": -42,
+            "lastHeardSecs": 40
+          },
+          {
+            "apMacAddress": "f4:db:e6:87:d4:00",
+            "band": "IEEE_802_11_B",
+            "slot": 0,
+            "antennaIndex": 0,
+            "rssi": -58,
+            "lastHeardSecs": 32
+          },
+          {
+            "apMacAddress": "f4:db:e6:87:d4:00",
+            "band": "IEEE_802_11_B",
+            "slot": 0,
+            "antennaIndex": 1,
+            "rssi": -58,
+            "lastHeardSecs": 32
+          },
+          {
+            "apMacAddress": "00:fc:ba:81:c1:20",
+            "band": "IEEE_802_11_B",
+            "slot": 0,
+            "antennaIndex": 1,
+            "rssi": -71,
+            "lastHeardSecs": 41
+          },
+          {
+            "apMacAddress": "00:fc:ba:81:c1:20",
+            "band": "IEEE_802_11_B",
+            "slot": 0,
+            "antennaIndex": 0,
+            "rssi": -71,
+            "lastHeardSecs": 41
+          },
+          {
+            "apMacAddress": "00:27:e3:49:c3:a0",
+            "band": "IEEE_802_11_B",
+            "slot": 0,
+            "antennaIndex": 1,
+            "rssi": -74,
+            "lastHeardSecs": 32
+          },
+          {
+            "apMacAddress": "00:27:e3:49:c3:a0",
+            "band": "IEEE_802_11_B",
+            "slot": 0,
+            "antennaIndex": 0,
+            "rssi": -74,
+            "lastHeardSecs": 32
+          }
+        ],
+        "timestamp": 1572879053573
+      }
+    ]
+  },
+  {
+    "notifications": [
+      {
+        "notificationType": "locationupdate",
+        "subscriptionName": "Vare",
+        "eventId": 41732528,
+        "locationMapHierarchy": "Otaniemi>V\u00e4re>2",
+        "locationCoordinate": { "x": 310.6491, "y": 279.6085, "z": 0.0, "unit": "FEET" },
+        "geoCoordinate": {
+          "latitude": 60.18511912316771,
+          "longitude": 24.82496755261399,
+          "unit": "DEGREES"
+        },
+        "confidenceFactor": 48.0,
+        "apMacAddress": "78:72:5d:01:d2:00",
+        "associated": true,
+        "username": "",
+        "ipAddress": null,
+        "ssid": "aalto",
+        "band": "IEEE_802_11_A",
+        "floorId": "-9013405199015870100",
+        "floorRefId": "-9013405199015870100",
+        "entity": "WIRELESS_CLIENTS",
+        "deviceId": "00:00:58:ac:a2:8c",
+        "lastSeen": "2019-11-04T16:50:53.576+0200",
+        "rawLocation": { "rawX": -999.0, "rawY": -999.0, "unit": "FEET" },
+        "tagVendorData": null,
+        "bleTagInfo": null,
+        "locComputeType": "RSSI",
+        "manufacturer": "Unknown",
+        "maxDetectedRssi": {
+          "apMacAddress": "70:79:b3:e2:84:e0",
+          "band": "IEEE_802_11_B",
+          "slot": 0,
+          "rssi": -62,
+          "antennaIndex": 0,
+          "lastHeardInSeconds": 72
+        },
+        "hierarchyDetails": {
+          "campusParents": null,
+          "campus": { "id": "-9013405199015870347", "name": "Otaniemi" },
+          "building": { "id": "-9013405199015870103", "name": "V\u00e4re" },
+          "floor": { "id": "-9013405199015870100", "name": "2" },
+          "zones": null
+        },
+        "rssiEntries": [
+          {
+            "apMacAddress": "70:79:b3:e2:84:e0",
+            "band": "IEEE_802_11_B",
+            "slot": 0,
+            "antennaIndex": 0,
+            "rssi": -62,
+            "lastHeardSecs": 72
+          },
+          {
+            "apMacAddress": "70:79:b3:e2:84:e0",
+            "band": "IEEE_802_11_B",
+            "slot": 0,
+            "antennaIndex": 1,
+            "rssi": -62,
+            "lastHeardSecs": 72
+          },
+          {
+            "apMacAddress": "70:79:b3:e2:83:60",
+            "band": "IEEE_802_11_B",
+            "slot": 0,
+            "antennaIndex": 0,
+            "rssi": -64,
+            "lastHeardSecs": 62
+          },
+          {
+            "apMacAddress": "70:79:b3:e2:83:60",
+            "band": "IEEE_802_11_B",
+            "slot": 0,
+            "antennaIndex": 1,
+            "rssi": -64,
+            "lastHeardSecs": 62
+          },
+          {
+            "apMacAddress": "78:72:5d:1e:0c:60",
+            "band": "IEEE_802_11_A",
+            "slot": 0,
+            "antennaIndex": 1,
+            "rssi": -65,
+            "lastHeardSecs": 62
+          },
+          {
+            "apMacAddress": "78:72:5d:1e:0c:60",
+            "band": "IEEE_802_11_A",
+            "slot": 0,
+            "antennaIndex": 0,
+            "rssi": -65,
+            "lastHeardSecs": 62
+          },
+          {
+            "apMacAddress": "70:0f:6a:00:4a:80",
+            "band": "IEEE_802_11_B",
+            "slot": 0,
+            "antennaIndex": 0,
+            "rssi": -71,
+            "lastHeardSecs": 62
+          },
+          {
+            "apMacAddress": "70:0f:6a:00:4a:80",
+            "band": "IEEE_802_11_B",
+            "slot": 0,
+            "antennaIndex": 1,
+            "rssi": -71,
+            "lastHeardSecs": 62
+          },
+          {
+            "apMacAddress": "70:79:b3:e2:88:40",
+            "band": "IEEE_802_11_B",
+            "slot": 0,
+            "antennaIndex": 1,
+            "rssi": -74,
+            "lastHeardSecs": 178
+          },
+          {
+            "apMacAddress": "70:79:b3:e2:88:40",
+            "band": "IEEE_802_11_B",
+            "slot": 0,
+            "antennaIndex": 0,
+            "rssi": -74,
+            "lastHeardSecs": 178
+          }
+        ],
+        "timestamp": 1572879053576
+      }
+    ]
+  },
+  {
+    "notifications": [
+      {
+        "notificationType": "locationupdate",
+        "subscriptionName": "Vare",
+        "eventId": 41732543,
+        "locationMapHierarchy": "Otaniemi>V\u00e4re>1",
+        "locationCoordinate": { "x": 337.49875, "y": 338.23834, "z": 0.0, "unit": "FEET" },
+        "geoCoordinate": {
+          "latitude": 60.18494876971426,
+          "longitude": 24.82493198899538,
+          "unit": "DEGREES"
+        },
+        "confidenceFactor": 160.0,
+        "apMacAddress": "a0:3d:6f:32:5d:50",
+        "associated": true,
+        "username": "",
+        "ipAddress": null,
+        "ssid": "aalto open",
+        "band": "IEEE_802_11_A",
+        "floorId": "-9013405199015870101",
+        "floorRefId": "-9013405199015870101",
+        "entity": "WIRELESS_CLIENTS",
+        "deviceId": "00:00:67:23:cb:03",
+        "lastSeen": "2019-11-04T16:50:55.274+0200",
+        "rawLocation": { "rawX": -999.0, "rawY": -999.0, "unit": "FEET" },
+        "tagVendorData": null,
+        "bleTagInfo": null,
+        "locComputeType": "RSSI",
+        "manufacturer": "Unknown",
+        "maxDetectedRssi": {
+          "apMacAddress": "78:72:5d:04:79:00",
+          "band": "IEEE_802_11_B",
+          "slot": 0,
+          "rssi": -72,
+          "antennaIndex": 0,
+          "lastHeardInSeconds": 214
+        },
+        "hierarchyDetails": {
+          "campusParents": null,
+          "campus": { "id": "-9013405199015870347", "name": "Otaniemi" },
+          "building": { "id": "-9013405199015870103", "name": "V\u00e4re" },
+          "floor": { "id": "-9013405199015870101", "name": "1" },
+          "zones": null
+        },
+        "rssiEntries": [
+          {
+            "apMacAddress": "78:72:5d:04:79:00",
+            "band": "IEEE_802_11_B",
+            "slot": 0,
+            "antennaIndex": 0,
+            "rssi": -72,
+            "lastHeardSecs": 214
+          },
+          {
+            "apMacAddress": "78:72:5d:04:79:00",
+            "band": "IEEE_802_11_B",
+            "slot": 0,
+            "antennaIndex": 1,
+            "rssi": -72,
+            "lastHeardSecs": 214
+          },
+          {
+            "apMacAddress": "78:72:5d:01:d2:00",
+            "band": "IEEE_802_11_B",
+            "slot": 0,
+            "antennaIndex": 0,
+            "rssi": -80,
+            "lastHeardSecs": 210
+          },
+          {
+            "apMacAddress": "78:72:5d:01:d2:00",
+            "band": "IEEE_802_11_B",
+            "slot": 0,
+            "antennaIndex": 1,
+            "rssi": -80,
+            "lastHeardSecs": 210
+          },
+          {
+            "apMacAddress": "70:0f:6a:00:46:e0",
+            "band": "IEEE_802_11_B",
+            "slot": 0,
+            "antennaIndex": 0,
+            "rssi": -82,
+            "lastHeardSecs": 227
+          },
+          {
+            "apMacAddress": "70:0f:6a:00:46:e0",
+            "band": "IEEE_802_11_B",
+            "slot": 0,
+            "antennaIndex": 1,
+            "rssi": -82,
+            "lastHeardSecs": 227
+          },
+          {
+            "apMacAddress": "f4:db:e6:87:d4:00",
+            "band": "IEEE_802_11_B",
+            "slot": 0,
+            "antennaIndex": 0,
+            "rssi": -84,
+            "lastHeardSecs": 74
+          }
+        ],
+        "timestamp": 1572879055274
+      }
+    ]
+  },
+  {
+    "notifications": [
+      {
+        "notificationType": "locationupdate",
+        "subscriptionName": "Vare",
+        "eventId": 41732585,
+        "locationMapHierarchy": "Otaniemi>V\u00e4re>2",
+        "locationCoordinate": { "x": 99.339355, "y": 234.46019, "z": 0.0, "unit": "FEET" },
+        "geoCoordinate": {
+          "latitude": 60.18552833714836,
+          "longitude": 24.824124425351712,
+          "unit": "DEGREES"
+        },
+        "confidenceFactor": 40.0,
+        "apMacAddress": "00:27:e3:f2:19:c0",
+        "associated": true,
+        "username": "",
+        "ipAddress": null,
+        "ssid": "aalto",
+        "band": "IEEE_802_11_A",
+        "floorId": "-9013405199015870100",
+        "floorRefId": "-9013405199015870100",
+        "entity": "WIRELESS_CLIENTS",
+        "deviceId": "00:00:1e:90:79:d2",
+        "lastSeen": "2019-11-04T16:50:57.131+0200",
+        "rawLocation": { "rawX": -999.0, "rawY": -999.0, "unit": "FEET" },
+        "tagVendorData": null,
+        "bleTagInfo": null,
+        "locComputeType": "RSSI",
+        "manufacturer": "Unknown",
+        "maxDetectedRssi": {
+          "apMacAddress": "00:fc:ba:81:ba:c0",
+          "band": "IEEE_802_11_A",
+          "slot": 0,
+          "rssi": -59,
+          "antennaIndex": 0,
+          "lastHeardInSeconds": 75
+        },
+        "hierarchyDetails": {
+          "campusParents": null,
+          "campus": { "id": "-9013405199015870347", "name": "Otaniemi" },
+          "building": { "id": "-9013405199015870103", "name": "V\u00e4re" },
+          "floor": { "id": "-9013405199015870100", "name": "2" },
+          "zones": null
+        },
+        "rssiEntries": [
+          {
+            "apMacAddress": "00:fc:ba:81:ba:c0",
+            "band": "IEEE_802_11_A",
+            "slot": 0,
+            "antennaIndex": 0,
+            "rssi": -59,
+            "lastHeardSecs": 75
+          },
+          {
+            "apMacAddress": "00:fc:ba:81:ba:c0",
+            "band": "IEEE_802_11_A",
+            "slot": 0,
+            "antennaIndex": 1,
+            "rssi": -59,
+            "lastHeardSecs": 75
+          },
+          {
+            "apMacAddress": "78:72:5d:0a:a6:a0",
+            "band": "IEEE_802_11_B",
+            "slot": 0,
+            "antennaIndex": 0,
+            "rssi": -60,
+            "lastHeardSecs": 40
+          },
+          {
+            "apMacAddress": "78:72:5d:0a:a6:a0",
+            "band": "IEEE_802_11_B",
+            "slot": 0,
+            "antennaIndex": 1,
+            "rssi": -60,
+            "lastHeardSecs": 40
+          },
+          {
+            "apMacAddress": "00:fc:ba:81:9f:60",
+            "band": "IEEE_802_11_B",
+            "slot": 0,
+            "antennaIndex": 0,
+            "rssi": -71,
+            "lastHeardSecs": 40
+          },
+          {
+            "apMacAddress": "00:fc:ba:81:9f:60",
+            "band": "IEEE_802_11_B",
+            "slot": 0,
+            "antennaIndex": 1,
+            "rssi": -71,
+            "lastHeardSecs": 40
+          },
+          {
+            "apMacAddress": "00:fc:ba:81:ba:e0",
+            "band": "IEEE_802_11_B",
+            "slot": 0,
+            "antennaIndex": 0,
+            "rssi": -73,
+            "lastHeardSecs": 40
+          },
+          {
+            "apMacAddress": "00:fc:ba:81:ba:e0",
+            "band": "IEEE_802_11_B",
+            "slot": 0,
+            "antennaIndex": 1,
+            "rssi": -73,
+            "lastHeardSecs": 40
+          }
+        ],
+        "timestamp": 1572879057131
+      }
+    ]
+  },
+  {
+    "notifications": [
+      {
+        "notificationType": "locationupdate",
+        "subscriptionName": "Ekonomiaukio",
+        "eventId": 41732590,
+        "locationMapHierarchy": "Otaniemi>Ekonominaukio>0krs",
+        "locationCoordinate": { "x": 45.287064, "y": 36.847527, "z": 0.0, "unit": "FEET" },
+        "geoCoordinate": {
+          "latitude": 60.18595277031736,
+          "longitude": 24.823636500333652,
+          "unit": "DEGREES"
+        },
+        "confidenceFactor": 48.0,
+        "apMacAddress": "f4:db:e6:86:e4:c0",
+        "associated": true,
+        "username": "",
+        "ipAddress": null,
+        "ssid": "eduroam",
+        "band": "IEEE_802_11_A",
+        "floorId": "-9013405199015870042",
+        "floorRefId": "-9013405199015870042",
+        "entity": "WIRELESS_CLIENTS",
+        "deviceId": "00:00:f4:a4:81:3a",
+        "lastSeen": "2019-11-04T16:50:57.134+0200",
+        "rawLocation": { "rawX": -999.0, "rawY": -999.0, "unit": "FEET" },
+        "tagVendorData": null,
+        "bleTagInfo": null,
+        "locComputeType": "RSSI",
+        "manufacturer": "Unknown",
+        "maxDetectedRssi": {
+          "apMacAddress": "f4:db:e6:44:dc:40",
+          "band": "IEEE_802_11_B",
+          "slot": 0,
+          "rssi": -56,
+          "antennaIndex": 1,
+          "lastHeardInSeconds": 242
+        },
+        "hierarchyDetails": {
+          "campusParents": null,
+          "campus": { "id": "-9013405199015870347", "name": "Otaniemi" },
+          "building": { "id": "-9013405199015870061", "name": "Ekonominaukio" },
+          "floor": { "id": "-9013405199015870042", "name": "0krs" },
+          "zones": [{ "id": "1395", "name": "Ekon-monitoimitila-0001" }]
+        },
+        "rssiEntries": [
+          {
+            "apMacAddress": "f4:db:e6:44:dc:40",
+            "band": "IEEE_802_11_B",
+            "slot": 0,
+            "antennaIndex": 1,
+            "rssi": -56,
+            "lastHeardSecs": 242
+          },
+          {
+            "apMacAddress": "f4:db:e6:44:dc:40",
+            "band": "IEEE_802_11_B",
+            "slot": 0,
+            "antennaIndex": 0,
+            "rssi": -56,
+            "lastHeardSecs": 242
+          },
+          {
+            "apMacAddress": "f4:db:e6:44:d7:40",
+            "band": "IEEE_802_11_A",
+            "slot": 1,
+            "antennaIndex": 0,
+            "rssi": -64,
+            "lastHeardSecs": 240
+          },
+          {
+            "apMacAddress": "f4:db:e6:44:d7:40",
+            "band": "IEEE_802_11_A",
+            "slot": 1,
+            "antennaIndex": 1,
+            "rssi": -64,
+            "lastHeardSecs": 240
+          },
+          {
+            "apMacAddress": "f4:db:e6:44:cd:60",
+            "band": "IEEE_802_11_B",
+            "slot": 0,
+            "antennaIndex": 0,
+            "rssi": -68,
+            "lastHeardSecs": 242
+          },
+          {
+            "apMacAddress": "f4:db:e6:44:cd:60",
+            "band": "IEEE_802_11_B",
+            "slot": 0,
+            "antennaIndex": 1,
+            "rssi": -68,
+            "lastHeardSecs": 242
+          },
+          {
+            "apMacAddress": "f4:db:e6:44:e8:a0",
+            "band": "IEEE_802_11_B",
+            "slot": 0,
+            "antennaIndex": 0,
+            "rssi": -69,
+            "lastHeardSecs": 242
+          },
+          {
+            "apMacAddress": "f4:db:e6:44:e8:a0",
+            "band": "IEEE_802_11_B",
+            "slot": 0,
+            "antennaIndex": 1,
+            "rssi": -69,
+            "lastHeardSecs": 242
+          },
+          {
+            "apMacAddress": "f4:db:e6:44:dc:a0",
+            "band": "IEEE_802_11_A",
+            "slot": 0,
+            "antennaIndex": 0,
+            "rssi": -73,
+            "lastHeardSecs": 240
+          },
+          {
+            "apMacAddress": "f4:db:e6:44:dc:a0",
+            "band": "IEEE_802_11_A",
+            "slot": 0,
+            "antennaIndex": 1,
+            "rssi": -73,
+            "lastHeardSecs": 240
+          },
+          {
+            "apMacAddress": "f4:db:e6:44:cd:60",
+            "band": "IEEE_802_11_A",
+            "slot": 1,
+            "antennaIndex": 0,
+            "rssi": -74,
+            "lastHeardSecs": 239
+          },
+          {
+            "apMacAddress": "f4:db:e6:44:cd:60",
+            "band": "IEEE_802_11_A",
+            "slot": 1,
+            "antennaIndex": 1,
+            "rssi": -74,
+            "lastHeardSecs": 239
+          }
+        ],
+        "timestamp": 1572879057134
+      }
+    ]
+  },
+  {
+    "notifications": [
+      {
+        "notificationType": "locationupdate",
+        "subscriptionName": "Ekonomiaukio y-siipi",
+        "eventId": 41732595,
+        "locationMapHierarchy": "Otaniemi>Ekonominaukio y-siipi>1-krs",
+        "locationCoordinate": { "x": 80.37561, "y": 37.268654, "z": 0.0, "unit": "FEET" },
+        "geoCoordinate": {
+          "latitude": 60.18604590369297,
+          "longitude": 24.823321703163124,
+          "unit": "DEGREES"
+        },
+        "confidenceFactor": 80.0,
+        "apMacAddress": "",
+        "associated": true,
+        "username": "",
+        "ipAddress": null,
+        "ssid": "",
+        "band": "UNKNOWN",
+        "floorId": "-9013405199015869960",
+        "floorRefId": "-9013405199015869960",
+        "entity": "WIRELESS_CLIENTS",
+        "deviceId": "00:00:e4:29:54:0c",
+        "lastSeen": "2019-11-04T16:50:57.135+0200",
+        "rawLocation": { "rawX": -999.0, "rawY": -999.0, "unit": "FEET" },
+        "tagVendorData": null,
+        "bleTagInfo": null,
+        "locComputeType": "RSSI",
+        "manufacturer": "Unknown",
+        "maxDetectedRssi": {
+          "apMacAddress": "f4:db:e6:86:df:00",
+          "band": "IEEE_802_11_B",
+          "slot": 0,
+          "rssi": -62,
+          "antennaIndex": 1,
+          "lastHeardInSeconds": 240
+        },
+        "hierarchyDetails": {
+          "campusParents": null,
+          "campus": { "id": "-9013405199015870347", "name": "Otaniemi" },
+          "building": { "id": "-9013405199015869961", "name": "Ekonominaukio y-siipi" },
+          "floor": { "id": "-9013405199015869960", "name": "1-krs" },
+          "zones": null
+        },
+        "rssiEntries": [
+          {
+            "apMacAddress": "f4:db:e6:86:df:00",
+            "band": "IEEE_802_11_B",
+            "slot": 0,
+            "antennaIndex": 1,
+            "rssi": -62,
+            "lastHeardSecs": 240
+          },
+          {
+            "apMacAddress": "f4:db:e6:86:df:00",
+            "band": "IEEE_802_11_B",
+            "slot": 0,
+            "antennaIndex": 0,
+            "rssi": -62,
+            "lastHeardSecs": 240
+          }
+        ],
+        "timestamp": 1572879057135
+      }
+    ]
+  },
+  {
+    "notifications": [
+      {
+        "notificationType": "locationupdate",
+        "subscriptionName": "Vare",
+        "eventId": 41732614,
+        "locationMapHierarchy": "Otaniemi>V\u00e4re>2",
+        "locationCoordinate": { "x": 127.46823, "y": 247.95491, "z": 0.0, "unit": "FEET" },
+        "geoCoordinate": {
+          "latitude": 60.18545654538191,
+          "longitude": 24.82421482921709,
+          "unit": "DEGREES"
+        },
+        "confidenceFactor": 32.0,
+        "apMacAddress": "78:72:5d:0a:a6:a0",
+        "associated": true,
+        "username": "",
+        "ipAddress": null,
+        "ssid": "aalto",
+        "band": "IEEE_802_11_A",
+        "floorId": "-9013405199015870100",
+        "floorRefId": "-9013405199015870100",
+        "entity": "WIRELESS_CLIENTS",
+        "deviceId": "00:00:16:0f:8d:f2",
+        "lastSeen": "2019-11-04T16:50:57.145+0200",
+        "rawLocation": { "rawX": -999.0, "rawY": -999.0, "unit": "FEET" },
+        "tagVendorData": null,
+        "bleTagInfo": null,
+        "locComputeType": "RSSI",
+        "manufacturer": "Unknown",
+        "maxDetectedRssi": {
+          "apMacAddress": "78:72:5d:0a:a6:a0",
+          "band": "IEEE_802_11_B",
+          "slot": 0,
+          "rssi": -45,
+          "antennaIndex": 0,
+          "lastHeardInSeconds": 78
+        },
+        "hierarchyDetails": {
+          "campusParents": null,
+          "campus": { "id": "-9013405199015870347", "name": "Otaniemi" },
+          "building": { "id": "-9013405199015870103", "name": "V\u00e4re" },
+          "floor": { "id": "-9013405199015870100", "name": "2" },
+          "zones": null
+        },
+        "rssiEntries": [
+          {
+            "apMacAddress": "78:72:5d:0a:a6:a0",
+            "band": "IEEE_802_11_B",
+            "slot": 0,
+            "antennaIndex": 0,
+            "rssi": -45,
+            "lastHeardSecs": 78
+          },
+          {
+            "apMacAddress": "78:72:5d:0a:a6:a0",
+            "band": "IEEE_802_11_B",
+            "slot": 0,
+            "antennaIndex": 1,
+            "rssi": -45,
+            "lastHeardSecs": 78
+          },
+          {
+            "apMacAddress": "00:fc:ba:81:9f:60",
+            "band": "IEEE_802_11_B",
+            "slot": 0,
+            "antennaIndex": 1,
+            "rssi": -54,
+            "lastHeardSecs": 41
+          },
+          {
+            "apMacAddress": "00:fc:ba:81:9f:60",
+            "band": "IEEE_802_11_B",
+            "slot": 0,
+            "antennaIndex": 0,
+            "rssi": -54,
+            "lastHeardSecs": 41
+          },
+          {
+            "apMacAddress": "00:fc:ba:22:aa:c0",
+            "band": "IEEE_802_11_B",
+            "slot": 0,
+            "antennaIndex": 0,
+            "rssi": -61,
+            "lastHeardSecs": 78
+          },
+          {
+            "apMacAddress": "00:fc:ba:22:aa:c0",
+            "band": "IEEE_802_11_B",
+            "slot": 0,
+            "antennaIndex": 1,
+            "rssi": -61,
+            "lastHeardSecs": 78
+          },
+          {
+            "apMacAddress": "00:fc:ba:81:ba:e0",
+            "band": "IEEE_802_11_B",
+            "slot": 0,
+            "antennaIndex": 1,
+            "rssi": -66,
+            "lastHeardSecs": 41
+          },
+          {
+            "apMacAddress": "00:fc:ba:81:ba:e0",
+            "band": "IEEE_802_11_B",
+            "slot": 0,
+            "antennaIndex": 0,
+            "rssi": -66,
+            "lastHeardSecs": 41
+          },
+          {
+            "apMacAddress": "00:fc:ba:81:ba:c0",
+            "band": "IEEE_802_11_A",
+            "slot": 0,
+            "antennaIndex": 1,
+            "rssi": -68,
+            "lastHeardSecs": 109
+          },
+          {
+            "apMacAddress": "00:fc:ba:81:ba:c0",
+            "band": "IEEE_802_11_A",
+            "slot": 0,
+            "antennaIndex": 0,
+            "rssi": -68,
+            "lastHeardSecs": 109
+          }
+        ],
+        "timestamp": 1572879057145
+      }
+    ]
+  },
+  {
+    "notifications": [
+      {
+        "notificationType": "locationupdate",
+        "subscriptionName": "Vare",
+        "eventId": 41732617,
+        "locationMapHierarchy": "Otaniemi>V\u00e4re>1",
+        "locationCoordinate": { "x": 541.97504, "y": 324.62677, "z": 0.0, "unit": "FEET" },
+        "geoCoordinate": {
+          "latitude": 60.18468245220753,
+          "longitude": 24.825913542128564,
+          "unit": "DEGREES"
+        },
+        "confidenceFactor": 88.0,
+        "apMacAddress": "NOT APPLICABLE",
+        "associated": false,
+        "username": "NOT APPLICABLE",
+        "ipAddress": ["NOT APPLICABLE"],
+        "ssid": "NOT APPLICABLE",
+        "band": "NOT APPLICABLE",
+        "floorId": "-9013405199015870101",
+        "floorRefId": "-9013405199015870101",
+        "entity": "WIRELESS_CLIENTS",
+        "deviceId": "00:00:80:51:e2:b6",
+        "lastSeen": "2019-11-04T16:50:57.145+0200",
+        "rawLocation": { "rawX": -999.0, "rawY": -999.0, "unit": "FEET" },
+        "tagVendorData": null,
+        "bleTagInfo": null,
+        "locComputeType": "RSSI",
+        "manufacturer": "Unknown",
+        "maxDetectedRssi": {
+          "apMacAddress": "70:79:b3:e2:82:20",
+          "band": "IEEE_802_11_B",
+          "slot": 0,
+          "rssi": -64,
+          "antennaIndex": 1,
+          "lastHeardInSeconds": 239
+        },
+        "hierarchyDetails": {
+          "campusParents": null,
+          "campus": { "id": "-9013405199015870347", "name": "Otaniemi" },
+          "building": { "id": "-9013405199015870103", "name": "V\u00e4re" },
+          "floor": { "id": "-9013405199015870101", "name": "1" },
+          "zones": null
+        },
+        "rssiEntries": [
+          {
+            "apMacAddress": "70:79:b3:e2:82:20",
+            "band": "IEEE_802_11_B",
+            "slot": 0,
+            "antennaIndex": 1,
+            "rssi": -64,
+            "lastHeardSecs": 239
+          },
+          {
+            "apMacAddress": "70:79:b3:e2:82:20",
+            "band": "IEEE_802_11_B",
+            "slot": 0,
+            "antennaIndex": 0,
+            "rssi": -64,
+            "lastHeardSecs": 239
+          },
+          {
+            "apMacAddress": "70:79:b3:e2:84:60",
+            "band": "IEEE_802_11_B",
+            "slot": 0,
+            "antennaIndex": 0,
+            "rssi": -72,
+            "lastHeardSecs": 239
+          },
+          {
+            "apMacAddress": "70:79:b3:e2:84:60",
+            "band": "IEEE_802_11_B",
+            "slot": 0,
+            "antennaIndex": 1,
+            "rssi": -72,
+            "lastHeardSecs": 239
+          }
+        ],
+        "timestamp": 1572879057145
+      }
+    ]
+  },
+  {
+    "notifications": [
+      {
+        "notificationType": "locationupdate",
+        "subscriptionName": "Vare",
+        "eventId": 41732664,
+        "locationMapHierarchy": "Otaniemi>V\u00e4re>1",
+        "locationCoordinate": { "x": 551.64844, "y": 323.08212, "z": 0.0, "unit": "FEET" },
+        "geoCoordinate": {
+          "latitude": 60.18467192968477,
+          "longitude": 24.82596257604038,
+          "unit": "DEGREES"
+        },
+        "confidenceFactor": 88.0,
+        "apMacAddress": "NOT APPLICABLE",
+        "associated": false,
+        "username": "NOT APPLICABLE",
+        "ipAddress": ["NOT APPLICABLE"],
+        "ssid": "NOT APPLICABLE",
+        "band": "NOT APPLICABLE",
+        "floorId": "-9013405199015870101",
+        "floorRefId": "-9013405199015870101",
+        "entity": "WIRELESS_CLIENTS",
+        "deviceId": "00:00:9f:8c:2c:48",
+        "lastSeen": "2019-11-04T16:50:57.160+0200",
+        "rawLocation": { "rawX": -999.0, "rawY": -999.0, "unit": "FEET" },
+        "tagVendorData": null,
+        "bleTagInfo": null,
+        "locComputeType": "RSSI",
+        "manufacturer": "Unknown",
+        "maxDetectedRssi": {
+          "apMacAddress": "70:79:b3:e2:82:20",
+          "band": "IEEE_802_11_B",
+          "slot": 0,
+          "rssi": -63,
+          "antennaIndex": 0,
+          "lastHeardInSeconds": 241
+        },
+        "hierarchyDetails": {
+          "campusParents": null,
+          "campus": { "id": "-9013405199015870347", "name": "Otaniemi" },
+          "building": { "id": "-9013405199015870103", "name": "V\u00e4re" },
+          "floor": { "id": "-9013405199015870101", "name": "1" },
+          "zones": null
+        },
+        "rssiEntries": [
+          {
+            "apMacAddress": "70:79:b3:e2:82:20",
+            "band": "IEEE_802_11_B",
+            "slot": 0,
+            "antennaIndex": 0,
+            "rssi": -63,
+            "lastHeardSecs": 241
+          },
+          {
+            "apMacAddress": "70:79:b3:e2:82:20",
+            "band": "IEEE_802_11_B",
+            "slot": 0,
+            "antennaIndex": 1,
+            "rssi": -63,
+            "lastHeardSecs": 241
+          },
+          {
+            "apMacAddress": "70:79:b3:e2:84:60",
+            "band": "IEEE_802_11_B",
+            "slot": 0,
+            "antennaIndex": 0,
+            "rssi": -74,
+            "lastHeardSecs": 241
+          },
+          {
+            "apMacAddress": "70:79:b3:e2:84:60",
+            "band": "IEEE_802_11_B",
+            "slot": 0,
+            "antennaIndex": 1,
+            "rssi": -74,
+            "lastHeardSecs": 241
+          }
+        ],
+        "timestamp": 1572879057160
+      }
+    ]
+  },
+  {
+    "notifications": [
+      {
+        "notificationType": "locationupdate",
+        "subscriptionName": "Vare",
+        "eventId": 41732667,
+        "locationMapHierarchy": "Otaniemi>V\u00e4re>1",
+        "locationCoordinate": { "x": 307.96286, "y": 376.9212, "z": 0.0, "unit": "FEET" },
+        "geoCoordinate": {
+          "latitude": 60.1849025924408,
+          "longitude": 24.824684284378023,
+          "unit": "DEGREES"
+        },
+        "confidenceFactor": 152.0,
+        "apMacAddress": "NOT APPLICABLE",
+        "associated": false,
+        "username": "NOT APPLICABLE",
+        "ipAddress": ["NOT APPLICABLE"],
+        "ssid": "NOT APPLICABLE",
+        "band": "NOT APPLICABLE",
+        "floorId": "-9013405199015870101",
+        "floorRefId": "-9013405199015870101",
+        "entity": "WIRELESS_CLIENTS",
+        "deviceId": "00:00:b3:a0:04:28",
+        "lastSeen": "2019-11-04T16:50:57.161+0200",
+        "rawLocation": { "rawX": -999.0, "rawY": -999.0, "unit": "FEET" },
+        "tagVendorData": null,
+        "bleTagInfo": null,
+        "locComputeType": "RSSI",
+        "manufacturer": "Unknown",
+        "maxDetectedRssi": {
+          "apMacAddress": "78:72:5d:04:79:00",
+          "band": "IEEE_802_11_B",
+          "slot": 0,
+          "rssi": -71,
+          "antennaIndex": 0,
+          "lastHeardInSeconds": 65
+        },
+        "hierarchyDetails": {
+          "campusParents": null,
+          "campus": { "id": "-9013405199015870347", "name": "Otaniemi" },
+          "building": { "id": "-9013405199015870103", "name": "V\u00e4re" },
+          "floor": { "id": "-9013405199015870101", "name": "1" },
+          "zones": null
+        },
+        "rssiEntries": [
+          {
+            "apMacAddress": "78:72:5d:04:79:00",
+            "band": "IEEE_802_11_B",
+            "slot": 0,
+            "antennaIndex": 0,
+            "rssi": -71,
+            "lastHeardSecs": 65
+          },
+          {
+            "apMacAddress": "78:72:5d:04:79:00",
+            "band": "IEEE_802_11_B",
+            "slot": 0,
+            "antennaIndex": 1,
+            "rssi": -71,
+            "lastHeardSecs": 65
+          },
+          {
+            "apMacAddress": "78:72:5d:01:d2:00",
+            "band": "IEEE_802_11_B",
+            "slot": 0,
+            "antennaIndex": 1,
+            "rssi": -86,
+            "lastHeardSecs": 65
+          },
+          {
+            "apMacAddress": "f4:db:e6:87:d4:00",
+            "band": "IEEE_802_11_B",
+            "slot": 0,
+            "antennaIndex": 1,
+            "rssi": -86,
+            "lastHeardSecs": 65
+          },
+          {
+            "apMacAddress": "f4:db:e6:87:d4:00",
+            "band": "IEEE_802_11_B",
+            "slot": 0,
+            "antennaIndex": 0,
+            "rssi": -86,
+            "lastHeardSecs": 65
+          },
+          {
+            "apMacAddress": "78:72:5d:01:d2:00",
+            "band": "IEEE_802_11_B",
+            "slot": 0,
+            "antennaIndex": 0,
+            "rssi": -86,
+            "lastHeardSecs": 65
+          }
+        ],
+        "timestamp": 1572879057161
+      }
+    ]
+  },
+  {
+    "notifications": [
+      {
+        "notificationType": "locationupdate",
+        "subscriptionName": "Vare",
+        "eventId": 41732675,
+        "locationMapHierarchy": "Otaniemi>V\u00e4re>2",
+        "locationCoordinate": { "x": 133.82545, "y": 23.64476, "z": 0.0, "unit": "FEET" },
+        "geoCoordinate": {
+          "latitude": 60.185966396760335,
+          "longitude": 24.824898396692724,
+          "unit": "DEGREES"
+        },
+        "confidenceFactor": 32.0,
+        "apMacAddress": "78:72:5d:04:77:c0",
+        "associated": true,
+        "username": "",
+        "ipAddress": null,
+        "ssid": "aalto open",
+        "band": "IEEE_802_11_B",
+        "floorId": "-9013405199015870100",
+        "floorRefId": "-9013405199015870100",
+        "entity": "WIRELESS_CLIENTS",
+        "deviceId": "00:00:46:ae:ab:45",
+        "lastSeen": "2019-11-04T16:50:57.162+0200",
+        "rawLocation": { "rawX": -999.0, "rawY": -999.0, "unit": "FEET" },
+        "tagVendorData": null,
+        "bleTagInfo": null,
+        "locComputeType": "RSSI",
+        "manufacturer": "Unknown",
+        "maxDetectedRssi": {
+          "apMacAddress": "00:fc:ba:91:29:60",
+          "band": "IEEE_802_11_A",
+          "slot": 0,
+          "rssi": -51,
+          "antennaIndex": 0,
+          "lastHeardInSeconds": 40
+        },
+        "hierarchyDetails": {
+          "campusParents": null,
+          "campus": { "id": "-9013405199015870347", "name": "Otaniemi" },
+          "building": { "id": "-9013405199015870103", "name": "V\u00e4re" },
+          "floor": { "id": "-9013405199015870100", "name": "2" },
+          "zones": null
+        },
+        "rssiEntries": [
+          {
+            "apMacAddress": "00:fc:ba:91:29:60",
+            "band": "IEEE_802_11_A",
+            "slot": 0,
+            "antennaIndex": 0,
+            "rssi": -51,
+            "lastHeardSecs": 40
+          },
+          {
+            "apMacAddress": "00:fc:ba:91:29:60",
+            "band": "IEEE_802_11_A",
+            "slot": 0,
+            "antennaIndex": 1,
+            "rssi": -51,
+            "lastHeardSecs": 40
+          },
+          {
+            "apMacAddress": "00:fc:ba:91:29:e0",
+            "band": "IEEE_802_11_B",
+            "slot": 0,
+            "antennaIndex": 0,
+            "rssi": -65,
+            "lastHeardSecs": 40
+          },
+          {
+            "apMacAddress": "00:fc:ba:91:29:e0",
+            "band": "IEEE_802_11_B",
+            "slot": 0,
+            "antennaIndex": 1,
+            "rssi": -65,
+            "lastHeardSecs": 40
+          },
+          {
+            "apMacAddress": "00:fc:ba:81:b6:40",
+            "band": "IEEE_802_11_B",
+            "slot": 0,
+            "antennaIndex": 1,
+            "rssi": -66,
+            "lastHeardSecs": 41
+          },
+          {
+            "apMacAddress": "00:fc:ba:81:b6:40",
+            "band": "IEEE_802_11_B",
+            "slot": 0,
+            "antennaIndex": 0,
+            "rssi": -66,
+            "lastHeardSecs": 41
+          },
+          {
+            "apMacAddress": "78:72:5d:0a:ac:80",
+            "band": "IEEE_802_11_B",
+            "slot": 0,
+            "antennaIndex": 1,
+            "rssi": -67,
+            "lastHeardSecs": 240
+          },
+          {
+            "apMacAddress": "78:72:5d:0a:ac:80",
+            "band": "IEEE_802_11_B",
+            "slot": 0,
+            "antennaIndex": 0,
+            "rssi": -67,
+            "lastHeardSecs": 240
+          }
+        ],
+        "timestamp": 1572879057162
+      }
+    ]
+  },
+  {
+    "notifications": [
+      {
+        "notificationType": "locationupdate",
+        "subscriptionName": "Ekonomiaukio y-siipi",
+        "eventId": 41733253,
+        "locationMapHierarchy": "Otaniemi>Ekonominaukio y-siipi>1-krs",
+        "locationCoordinate": { "x": 44.5913, "y": 30.05718, "z": 0.0, "unit": "FEET" },
+        "geoCoordinate": {
+          "latitude": 60.186131432886604,
+          "longitude": 24.823034180622784,
+          "unit": "DEGREES"
+        },
+        "confidenceFactor": 16.0,
+        "apMacAddress": "NOT APPLICABLE",
+        "associated": false,
+        "username": "NOT APPLICABLE",
+        "ipAddress": ["NOT APPLICABLE"],
+        "ssid": "NOT APPLICABLE",
+        "band": "NOT APPLICABLE",
+        "floorId": "-9013405199015869960",
+        "floorRefId": "-9013405199015869960",
+        "entity": "WIRELESS_CLIENTS",
+        "deviceId": "00:00:f8:85:56:d4",
+        "lastSeen": "2019-11-04T16:51:08.166+0200",
+        "rawLocation": { "rawX": -999.0, "rawY": -999.0, "unit": "FEET" },
+        "tagVendorData": null,
+        "bleTagInfo": null,
+        "locComputeType": "RSSI",
+        "manufacturer": "Unknown",
+        "maxDetectedRssi": {
+          "apMacAddress": "f4:db:e6:45:ea:20",
+          "band": "IEEE_802_11_B",
+          "slot": 0,
+          "rssi": -51,
+          "antennaIndex": 1,
+          "lastHeardInSeconds": 80
+        },
+        "hierarchyDetails": {
+          "campusParents": null,
+          "campus": { "id": "-9013405199015870347", "name": "Otaniemi" },
+          "building": { "id": "-9013405199015869961", "name": "Ekonominaukio y-siipi" },
+          "floor": { "id": "-9013405199015869960", "name": "1-krs" },
+          "zones": null
+        },
+        "rssiEntries": [
+          {
+            "apMacAddress": "f4:db:e6:45:ea:20",
+            "band": "IEEE_802_11_B",
+            "slot": 0,
+            "antennaIndex": 1,
+            "rssi": -51,
+            "lastHeardSecs": 80
+          },
+          {
+            "apMacAddress": "f4:db:e6:45:ea:20",
+            "band": "IEEE_802_11_B",
+            "slot": 0,
+            "antennaIndex": 0,
+            "rssi": -51,
+            "lastHeardSecs": 80
+          },
+          {
+            "apMacAddress": "f4:db:e6:86:e6:80",
+            "band": "IEEE_802_11_A",
+            "slot": 1,
+            "antennaIndex": 0,
+            "rssi": -53,
+            "lastHeardSecs": 11
+          },
+          {
+            "apMacAddress": "f4:db:e6:86:e6:80",
+            "band": "IEEE_802_11_A",
+            "slot": 1,
+            "antennaIndex": 1,
+            "rssi": -53,
+            "lastHeardSecs": 11
+          },
+          {
+            "apMacAddress": "f4:db:e6:87:52:c0",
+            "band": "IEEE_802_11_B",
+            "slot": 0,
+            "antennaIndex": 0,
+            "rssi": -55,
+            "lastHeardSecs": 143
+          },
+          {
+            "apMacAddress": "f4:db:e6:87:52:c0",
+            "band": "IEEE_802_11_B",
+            "slot": 0,
+            "antennaIndex": 1,
+            "rssi": -55,
+            "lastHeardSecs": 143
+          },
+          {
+            "apMacAddress": "f4:db:e6:45:ea:20",
+            "band": "IEEE_802_11_A",
+            "slot": 1,
+            "antennaIndex": 1,
+            "rssi": -57,
+            "lastHeardSecs": 11
+          },
+          {
+            "apMacAddress": "f4:db:e6:45:ea:20",
+            "band": "IEEE_802_11_A",
+            "slot": 1,
+            "antennaIndex": 0,
+            "rssi": -57,
+            "lastHeardSecs": 11
+          },
+          {
+            "apMacAddress": "f4:db:e6:87:52:c0",
+            "band": "IEEE_802_11_A",
+            "slot": 1,
+            "antennaIndex": 0,
+            "rssi": -57,
+            "lastHeardSecs": 11
+          },
+          {
+            "apMacAddress": "f4:db:e6:87:52:c0",
+            "band": "IEEE_802_11_A",
+            "slot": 1,
+            "antennaIndex": 1,
+            "rssi": -57,
+            "lastHeardSecs": 11
+          },
+          {
+            "apMacAddress": "f4:db:e6:87:02:80",
+            "band": "IEEE_802_11_B",
+            "slot": 0,
+            "antennaIndex": 0,
+            "rssi": -59,
+            "lastHeardSecs": 82
+          },
+          {
+            "apMacAddress": "f4:db:e6:87:02:80",
+            "band": "IEEE_802_11_B",
+            "slot": 0,
+            "antennaIndex": 1,
+            "rssi": -59,
+            "lastHeardSecs": 82
+          },
+          {
+            "apMacAddress": "f4:db:e6:46:c2:00",
+            "band": "IEEE_802_11_B",
+            "slot": 0,
+            "antennaIndex": 0,
+            "rssi": -61,
+            "lastHeardSecs": 82
+          },
+          {
+            "apMacAddress": "f4:db:e6:46:c2:00",
+            "band": "IEEE_802_11_B",
+            "slot": 0,
+            "antennaIndex": 1,
+            "rssi": -61,
+            "lastHeardSecs": 82
+          },
+          {
+            "apMacAddress": "f4:db:e6:86:99:c0",
+            "band": "IEEE_802_11_A",
+            "slot": 0,
+            "antennaIndex": 0,
+            "rssi": -62,
+            "lastHeardSecs": 80
+          },
+          {
+            "apMacAddress": "f4:db:e6:86:99:c0",
+            "band": "IEEE_802_11_A",
+            "slot": 0,
+            "antennaIndex": 1,
+            "rssi": -62,
+            "lastHeardSecs": 80
+          }
+        ],
+        "timestamp": 1572879068166
+      }
+    ]
+  },
+  {
+    "notifications": [
+      {
+        "notificationType": "locationupdate",
+        "subscriptionName": "Vare",
+        "eventId": 41733185,
+        "locationMapHierarchy": "Otaniemi>V\u00e4re>2",
+        "locationCoordinate": { "x": 247.42067, "y": 165.68478, "z": 0.0, "unit": "FEET" },
+        "geoCoordinate": {
+          "latitude": 60.185473912423774,
+          "longitude": 24.82500814707885,
+          "unit": "DEGREES"
+        },
+        "confidenceFactor": 32.0,
+        "apMacAddress": "",
+        "associated": true,
+        "username": "",
+        "ipAddress": null,
+        "ssid": "",
+        "band": "UNKNOWN",
+        "floorId": "-9013405199015870100",
+        "floorRefId": "-9013405199015870100",
+        "entity": "WIRELESS_CLIENTS",
+        "deviceId": "00:00:62:90:ea:71",
+        "lastSeen": "2019-11-04T16:51:06.483+0200",
+        "rawLocation": { "rawX": -999.0, "rawY": -999.0, "unit": "FEET" },
+        "tagVendorData": null,
+        "bleTagInfo": null,
+        "locComputeType": "RSSI",
+        "manufacturer": "Unknown",
+        "maxDetectedRssi": {
+          "apMacAddress": "70:79:b3:e2:84:80",
+          "band": "IEEE_802_11_B",
+          "slot": 0,
+          "rssi": -43,
+          "antennaIndex": 0,
+          "lastHeardInSeconds": 235
+        },
+        "hierarchyDetails": {
+          "campusParents": null,
+          "campus": { "id": "-9013405199015870347", "name": "Otaniemi" },
+          "building": { "id": "-9013405199015870103", "name": "V\u00e4re" },
+          "floor": { "id": "-9013405199015870100", "name": "2" },
+          "zones": null
+        },
+        "rssiEntries": [
+          {
+            "apMacAddress": "70:79:b3:e2:84:80",
+            "band": "IEEE_802_11_B",
+            "slot": 0,
+            "antennaIndex": 0,
+            "rssi": -43,
+            "lastHeardSecs": 235
+          },
+          {
+            "apMacAddress": "70:79:b3:e2:84:80",
+            "band": "IEEE_802_11_B",
+            "slot": 0,
+            "antennaIndex": 1,
+            "rssi": -43,
+            "lastHeardSecs": 235
+          },
+          {
+            "apMacAddress": "70:0f:6a:00:4b:00",
+            "band": "IEEE_802_11_B",
+            "slot": 0,
+            "antennaIndex": 0,
+            "rssi": -66,
+            "lastHeardSecs": 236
+          },
+          {
+            "apMacAddress": "70:0f:6a:00:4b:00",
+            "band": "IEEE_802_11_B",
+            "slot": 0,
+            "antennaIndex": 1,
+            "rssi": -66,
+            "lastHeardSecs": 236
+          },
+          {
+            "apMacAddress": "00:fc:ba:81:b9:a0",
+            "band": "IEEE_802_11_A",
+            "slot": 0,
+            "antennaIndex": 1,
+            "rssi": -70,
+            "lastHeardSecs": 230
+          },
+          {
+            "apMacAddress": "00:fc:ba:81:b9:a0",
+            "band": "IEEE_802_11_A",
+            "slot": 0,
+            "antennaIndex": 0,
+            "rssi": -70,
+            "lastHeardSecs": 230
+          },
+          {
+            "apMacAddress": "00:fc:ba:81:bc:c0",
+            "band": "IEEE_802_11_B",
+            "slot": 0,
+            "antennaIndex": 0,
+            "rssi": -71,
+            "lastHeardSecs": 235
+          },
+          {
+            "apMacAddress": "00:fc:ba:81:bc:c0",
+            "band": "IEEE_802_11_B",
+            "slot": 0,
+            "antennaIndex": 1,
+            "rssi": -71,
+            "lastHeardSecs": 235
+          }
+        ],
+        "timestamp": 1572879066483
+      }
+    ]
+  },
+  {
+    "notifications": [
+      {
+        "notificationType": "locationupdate",
+        "subscriptionName": "Vare",
+        "eventId": 41733274,
+        "locationMapHierarchy": "Otaniemi>V\u00e4re>1",
+        "locationCoordinate": { "x": 214.57425, "y": 105.23307, "z": 0.0, "unit": "FEET" },
+        "geoCoordinate": {
+          "latitude": 60.18566490089645,
+          "longitude": 24.825037705677886,
+          "unit": "DEGREES"
+        },
+        "confidenceFactor": 72.0,
+        "apMacAddress": "NOT APPLICABLE",
+        "associated": false,
+        "username": "NOT APPLICABLE",
+        "ipAddress": ["NOT APPLICABLE"],
+        "ssid": "NOT APPLICABLE",
+        "band": "NOT APPLICABLE",
+        "floorId": "-9013405199015870101",
+        "floorRefId": "-9013405199015870101",
+        "entity": "WIRELESS_CLIENTS",
+        "deviceId": "00:00:8d:36:12:80",
+        "lastSeen": "2019-11-04T16:51:08.169+0200",
+        "rawLocation": { "rawX": -999.0, "rawY": -999.0, "unit": "FEET" },
+        "tagVendorData": null,
+        "bleTagInfo": null,
+        "locComputeType": "RSSI",
+        "manufacturer": "Unknown",
+        "maxDetectedRssi": {
+          "apMacAddress": "78:72:5d:04:65:60",
+          "band": "IEEE_802_11_A",
+          "slot": 0,
+          "rssi": -73,
+          "antennaIndex": 1,
+          "lastHeardInSeconds": 232
+        },
+        "hierarchyDetails": {
+          "campusParents": null,
+          "campus": { "id": "-9013405199015870347", "name": "Otaniemi" },
+          "building": { "id": "-9013405199015870103", "name": "V\u00e4re" },
+          "floor": { "id": "-9013405199015870101", "name": "1" },
+          "zones": null
+        },
+        "rssiEntries": [
+          {
+            "apMacAddress": "78:72:5d:04:65:60",
+            "band": "IEEE_802_11_A",
+            "slot": 0,
+            "antennaIndex": 1,
+            "rssi": -73,
+            "lastHeardSecs": 232
+          },
+          {
+            "apMacAddress": "78:72:5d:04:65:60",
+            "band": "IEEE_802_11_A",
+            "slot": 0,
+            "antennaIndex": 0,
+            "rssi": -73,
+            "lastHeardSecs": 232
+          }
+        ],
+        "timestamp": 1572879068169
+      }
+    ]
+  },
+  {
+    "notifications": [
+      {
+        "notificationType": "locationupdate",
+        "subscriptionName": "Vare",
+        "eventId": 41732679,
+        "locationMapHierarchy": "Otaniemi>V\u00e4re>2",
+        "locationCoordinate": { "x": 185.82954, "y": 97.8807, "z": 0.0, "unit": "FEET" },
+        "geoCoordinate": {
+          "latitude": 60.18571962656212,
+          "longitude": 24.824921778692033,
+          "unit": "DEGREES"
+        },
+        "confidenceFactor": 32.0,
+        "apMacAddress": "",
+        "associated": true,
+        "username": "",
+        "ipAddress": null,
+        "ssid": "",
+        "band": "UNKNOWN",
+        "floorId": "-9013405199015870100",
+        "floorRefId": "-9013405199015870100",
+        "entity": "WIRELESS_CLIENTS",
+        "deviceId": "00:00:b1:de:8a:b5",
+        "lastSeen": "2019-11-04T16:50:57.164+0200",
+        "rawLocation": { "rawX": -999.0, "rawY": -999.0, "unit": "FEET" },
+        "tagVendorData": null,
+        "bleTagInfo": null,
+        "locComputeType": "RSSI",
+        "manufacturer": "Unknown",
+        "maxDetectedRssi": {
+          "apMacAddress": "00:fc:ba:81:bc:c0",
+          "band": "IEEE_802_11_B",
+          "slot": 0,
+          "rssi": -45,
+          "antennaIndex": 0,
+          "lastHeardInSeconds": 228
+        },
+        "hierarchyDetails": {
+          "campusParents": null,
+          "campus": { "id": "-9013405199015870347", "name": "Otaniemi" },
+          "building": { "id": "-9013405199015870103", "name": "V\u00e4re" },
+          "floor": { "id": "-9013405199015870100", "name": "2" },
+          "zones": null
+        },
+        "rssiEntries": [
+          {
+            "apMacAddress": "00:fc:ba:81:bc:c0",
+            "band": "IEEE_802_11_B",
+            "slot": 0,
+            "antennaIndex": 0,
+            "rssi": -45,
+            "lastHeardSecs": 228
+          },
+          {
+            "apMacAddress": "00:fc:ba:81:bc:c0",
+            "band": "IEEE_802_11_B",
+            "slot": 0,
+            "antennaIndex": 1,
+            "rssi": -45,
+            "lastHeardSecs": 228
+          },
+          {
+            "apMacAddress": "70:0f:6a:00:4b:00",
+            "band": "IEEE_802_11_B",
+            "slot": 0,
+            "antennaIndex": 1,
+            "rssi": -61,
+            "lastHeardSecs": 228
+          },
+          {
+            "apMacAddress": "70:0f:6a:00:4b:00",
+            "band": "IEEE_802_11_B",
+            "slot": 0,
+            "antennaIndex": 0,
+            "rssi": -61,
+            "lastHeardSecs": 228
+          },
+          {
+            "apMacAddress": "00:fc:ba:81:bb:80",
+            "band": "IEEE_802_11_B",
+            "slot": 0,
+            "antennaIndex": 1,
+            "rssi": -66,
+            "lastHeardSecs": 227
+          },
+          {
+            "apMacAddress": "00:fc:ba:81:bb:80",
+            "band": "IEEE_802_11_B",
+            "slot": 0,
+            "antennaIndex": 0,
+            "rssi": -66,
+            "lastHeardSecs": 227
+          },
+          {
+            "apMacAddress": "00:27:e3:81:96:60",
+            "band": "IEEE_802_11_B",
+            "slot": 0,
+            "antennaIndex": 1,
+            "rssi": -66,
+            "lastHeardSecs": 227
+          },
+          {
+            "apMacAddress": "00:27:e3:81:96:60",
+            "band": "IEEE_802_11_B",
+            "slot": 0,
+            "antennaIndex": 0,
+            "rssi": -66,
+            "lastHeardSecs": 227
+          }
+        ],
+        "timestamp": 1572879057164
+      }
+    ]
+  },
+  {
+    "notifications": [
+      {
+        "notificationType": "locationupdate",
+        "subscriptionName": "Vare",
+        "eventId": 41732680,
+        "locationMapHierarchy": "Otaniemi>V\u00e4re>1",
+        "locationCoordinate": { "x": 367.70087, "y": 319.1977, "z": 0.0, "unit": "FEET" },
+        "geoCoordinate": {
+          "latitude": 60.18494869430068,
+          "longitude": 24.825126098708047,
+          "unit": "DEGREES"
+        },
+        "confidenceFactor": 48.0,
+        "apMacAddress": "f4:db:e6:46:b2:a0",
+        "associated": true,
+        "username": "",
+        "ipAddress": null,
+        "ssid": "aalto",
+        "band": "IEEE_802_11_B",
+        "floorId": "-9013405199015870101",
+        "floorRefId": "-9013405199015870101",
+        "entity": "WIRELESS_CLIENTS",
+        "deviceId": "00:00:59:01:54:9e",
+        "lastSeen": "2019-11-04T16:50:57.156+0200",
+        "rawLocation": { "rawX": -999.0, "rawY": -999.0, "unit": "FEET" },
+        "tagVendorData": null,
+        "bleTagInfo": null,
+        "locComputeType": "RSSI",
+        "manufacturer": "Unknown",
+        "maxDetectedRssi": {
+          "apMacAddress": "78:72:5d:04:79:00",
+          "band": "IEEE_802_11_B",
+          "slot": 0,
+          "rssi": -61,
+          "antennaIndex": 0,
+          "lastHeardInSeconds": 36
+        },
+        "hierarchyDetails": {
+          "campusParents": null,
+          "campus": { "id": "-9013405199015870347", "name": "Otaniemi" },
+          "building": { "id": "-9013405199015870103", "name": "V\u00e4re" },
+          "floor": { "id": "-9013405199015870101", "name": "1" },
+          "zones": null
+        },
+        "rssiEntries": [
+          {
+            "apMacAddress": "78:72:5d:04:79:00",
+            "band": "IEEE_802_11_B",
+            "slot": 0,
+            "antennaIndex": 0,
+            "rssi": -61,
+            "lastHeardSecs": 36
+          },
+          {
+            "apMacAddress": "78:72:5d:04:79:00",
+            "band": "IEEE_802_11_B",
+            "slot": 0,
+            "antennaIndex": 1,
+            "rssi": -61,
+            "lastHeardSecs": 36
+          },
+          {
+            "apMacAddress": "70:79:b3:e2:84:60",
+            "band": "IEEE_802_11_B",
+            "slot": 0,
+            "antennaIndex": 0,
+            "rssi": -61,
+            "lastHeardSecs": 36
+          },
+          {
+            "apMacAddress": "70:79:b3:e2:84:60",
+            "band": "IEEE_802_11_B",
+            "slot": 0,
+            "antennaIndex": 1,
+            "rssi": -61,
+            "lastHeardSecs": 36
+          },
+          {
+            "apMacAddress": "78:72:5d:1d:e8:e0",
+            "band": "IEEE_802_11_B",
+            "slot": 0,
+            "antennaIndex": 1,
+            "rssi": -62,
+            "lastHeardSecs": 36
+          },
+          {
+            "apMacAddress": "78:72:5d:1d:e8:e0",
+            "band": "IEEE_802_11_B",
+            "slot": 0,
+            "antennaIndex": 0,
+            "rssi": -62,
+            "lastHeardSecs": 36
+          },
+          {
+            "apMacAddress": "50:61:bf:93:01:80",
+            "band": "IEEE_802_11_B",
+            "slot": 0,
+            "antennaIndex": 0,
+            "rssi": -63,
+            "lastHeardSecs": 94
+          },
+          {
+            "apMacAddress": "50:61:bf:93:01:80",
+            "band": "IEEE_802_11_B",
+            "slot": 0,
+            "antennaIndex": 1,
+            "rssi": -63,
+            "lastHeardSecs": 94
+          }
+        ],
+        "timestamp": 1572879057156
+      }
+    ]
+  },
+  {
+    "notifications": [
+      {
+        "notificationType": "locationupdate",
+        "subscriptionName": "Vare",
+        "eventId": 41733299,
+        "locationMapHierarchy": "Otaniemi>V\u00e4re>1",
+        "locationCoordinate": { "x": 471.13104, "y": 341.33713, "z": 0.0, "unit": "FEET" },
+        "geoCoordinate": {
+          "latitude": 60.184747070391275,
+          "longitude": 24.825538865517732,
+          "unit": "DEGREES"
+        },
+        "confidenceFactor": 192.0,
+        "apMacAddress": "70:79:b3:88:11:20",
+        "associated": true,
+        "username": "",
+        "ipAddress": null,
+        "ssid": "aalto open",
+        "band": "IEEE_802_11_A",
+        "floorId": "-9013405199015870101",
+        "floorRefId": "-9013405199015870101",
+        "entity": "WIRELESS_CLIENTS",
+        "deviceId": "00:00:97:d5:19:5d",
+        "lastSeen": "2019-11-04T16:51:08.174+0200",
+        "rawLocation": { "rawX": -999.0, "rawY": -999.0, "unit": "FEET" },
+        "tagVendorData": null,
+        "bleTagInfo": null,
+        "locComputeType": "RSSI",
+        "manufacturer": "Unknown",
+        "maxDetectedRssi": {
+          "apMacAddress": "70:79:b3:e2:84:60",
+          "band": "IEEE_802_11_B",
+          "slot": 0,
+          "rssi": -75,
+          "antennaIndex": 1,
+          "lastHeardInSeconds": 217
+        },
+        "hierarchyDetails": {
+          "campusParents": null,
+          "campus": { "id": "-9013405199015870347", "name": "Otaniemi" },
+          "building": { "id": "-9013405199015870103", "name": "V\u00e4re" },
+          "floor": { "id": "-9013405199015870101", "name": "1" },
+          "zones": null
+        },
+        "rssiEntries": [
+          {
+            "apMacAddress": "70:79:b3:e2:84:60",
+            "band": "IEEE_802_11_B",
+            "slot": 0,
+            "antennaIndex": 1,
+            "rssi": -75,
+            "lastHeardSecs": 217
+          },
+          {
+            "apMacAddress": "70:79:b3:e2:84:60",
+            "band": "IEEE_802_11_B",
+            "slot": 0,
+            "antennaIndex": 0,
+            "rssi": -75,
+            "lastHeardSecs": 217
+          }
+        ],
+        "timestamp": 1572879068174
+      }
+    ]
+  },
+  {
+    "notifications": [
+      {
+        "notificationType": "locationupdate",
+        "subscriptionName": "Ekonomiaukio",
+        "eventId": 41732699,
+        "locationMapHierarchy": "Otaniemi>Ekonominaukio>0krs>Ekon-monitoimitila-0001",
+        "locationCoordinate": { "x": 91.37934, "y": 49.429993, "z": 0.0, "unit": "FEET" },
+        "geoCoordinate": {
+          "latitude": 60.18581107684347,
+          "longitude": 24.82390307317538,
+          "unit": "DEGREES"
+        },
+        "confidenceFactor": 16.0,
+        "apMacAddress": "f4:db:e6:86:d6:40",
+        "associated": true,
+        "username": "",
+        "ipAddress": null,
+        "ssid": "aalto open",
+        "band": "IEEE_802_11_A",
+        "floorId": "-9013405199015870042",
+        "floorRefId": "-9013405199015870042",
+        "entity": "WIRELESS_CLIENTS",
+        "deviceId": "00:00:1e:49:5c:98",
+        "lastSeen": "2019-11-04T16:50:58.940+0200",
+        "rawLocation": { "rawX": -999.0, "rawY": -999.0, "unit": "FEET" },
+        "tagVendorData": null,
+        "bleTagInfo": null,
+        "locComputeType": "RSSI",
+        "manufacturer": "Unknown",
+        "maxDetectedRssi": {
+          "apMacAddress": "f4:db:e6:86:d6:40",
+          "band": "IEEE_802_11_A",
+          "slot": 1,
+          "rssi": -46,
+          "antennaIndex": 1,
+          "lastHeardInSeconds": 218
+        },
+        "hierarchyDetails": {
+          "campusParents": null,
+          "campus": { "id": "-9013405199015870347", "name": "Otaniemi" },
+          "building": { "id": "-9013405199015870061", "name": "Ekonominaukio" },
+          "floor": { "id": "-9013405199015870042", "name": "0krs" },
+          "zones": [{ "id": "1395", "name": "Ekon-monitoimitila-0001" }]
+        },
+        "rssiEntries": [
+          {
+            "apMacAddress": "f4:db:e6:86:d6:40",
+            "band": "IEEE_802_11_A",
+            "slot": 1,
+            "antennaIndex": 1,
+            "rssi": -46,
+            "lastHeardSecs": 218
+          },
+          {
+            "apMacAddress": "f4:db:e6:86:d6:40",
+            "band": "IEEE_802_11_A",
+            "slot": 1,
+            "antennaIndex": 0,
+            "rssi": -46,
+            "lastHeardSecs": 218
+          },
+          {
+            "apMacAddress": "f4:db:e6:86:d6:40",
+            "band": "IEEE_802_11_A",
+            "slot": 0,
+            "antennaIndex": 0,
+            "rssi": -50,
+            "lastHeardSecs": 219
+          },
+          {
+            "apMacAddress": "f4:db:e6:86:d6:40",
+            "band": "IEEE_802_11_A",
+            "slot": 0,
+            "antennaIndex": 1,
+            "rssi": -50,
+            "lastHeardSecs": 219
+          },
+          {
+            "apMacAddress": "f4:db:e6:44:c9:c0",
+            "band": "IEEE_802_11_A",
+            "slot": 1,
+            "antennaIndex": 1,
+            "rssi": -51,
+            "lastHeardSecs": 222
+          },
+          {
+            "apMacAddress": "f4:db:e6:44:c9:c0",
+            "band": "IEEE_802_11_A",
+            "slot": 1,
+            "antennaIndex": 0,
+            "rssi": -51,
+            "lastHeardSecs": 222
+          },
+          {
+            "apMacAddress": "f4:db:e6:86:fc:00",
+            "band": "IEEE_802_11_A",
+            "slot": 0,
+            "antennaIndex": 0,
+            "rssi": -55,
+            "lastHeardSecs": 237
+          },
+          {
+            "apMacAddress": "f4:db:e6:86:fc:00",
+            "band": "IEEE_802_11_A",
+            "slot": 0,
+            "antennaIndex": 1,
+            "rssi": -55,
+            "lastHeardSecs": 237
+          },
+          {
+            "apMacAddress": "f4:db:e6:86:e2:60",
+            "band": "IEEE_802_11_B",
+            "slot": 0,
+            "antennaIndex": 1,
+            "rssi": -56,
+            "lastHeardSecs": 236
+          },
+          {
+            "apMacAddress": "f4:db:e6:86:e2:60",
+            "band": "IEEE_802_11_B",
+            "slot": 0,
+            "antennaIndex": 0,
+            "rssi": -56,
+            "lastHeardSecs": 236
+          },
+          {
+            "apMacAddress": "f4:db:e6:44:cd:c0",
+            "band": "IEEE_802_11_A",
+            "slot": 1,
+            "antennaIndex": 0,
+            "rssi": -56,
+            "lastHeardSecs": 235
+          },
+          {
+            "apMacAddress": "f4:db:e6:44:cd:c0",
+            "band": "IEEE_802_11_A",
+            "slot": 1,
+            "antennaIndex": 1,
+            "rssi": -56,
+            "lastHeardSecs": 235
+          },
+          {
+            "apMacAddress": "f4:db:e6:44:c9:c0",
+            "band": "IEEE_802_11_B",
+            "slot": 0,
+            "antennaIndex": 0,
+            "rssi": -58,
+            "lastHeardSecs": 217
+          },
+          {
+            "apMacAddress": "f4:db:e6:44:c9:c0",
+            "band": "IEEE_802_11_B",
+            "slot": 0,
+            "antennaIndex": 1,
+            "rssi": -58,
+            "lastHeardSecs": 217
+          },
+          {
+            "apMacAddress": "f4:db:e6:86:fc:00",
+            "band": "IEEE_802_11_A",
+            "slot": 1,
+            "antennaIndex": 0,
+            "rssi": -58,
+            "lastHeardSecs": 235
+          },
+          {
+            "apMacAddress": "f4:db:e6:86:fc:00",
+            "band": "IEEE_802_11_A",
+            "slot": 1,
+            "antennaIndex": 1,
+            "rssi": -58,
+            "lastHeardSecs": 235
+          }
+        ],
+        "timestamp": 1572879058940
+      }
+    ]
+  },
+  {
+    "notifications": [
+      {
+        "notificationType": "locationupdate",
+        "subscriptionName": "Vare",
+        "eventId": 41733213,
+        "locationMapHierarchy": "Otaniemi>V\u00e4re>3",
+        "locationCoordinate": { "x": 142.0425, "y": 162.64409, "z": 0.0, "unit": "FEET" },
+        "geoCoordinate": {
+          "latitude": 60.18564029726584,
+          "longitude": 24.82452018749058,
+          "unit": "DEGREES"
+        },
+        "confidenceFactor": 32.0,
+        "apMacAddress": "NOT APPLICABLE",
+        "associated": false,
+        "username": "NOT APPLICABLE",
+        "ipAddress": ["NOT APPLICABLE"],
+        "ssid": "NOT APPLICABLE",
+        "band": "NOT APPLICABLE",
+        "floorId": "-9013405199015870099",
+        "floorRefId": "-9013405199015870099",
+        "entity": "WIRELESS_CLIENTS",
+        "deviceId": "00:00:76:d8:61:47",
+        "lastSeen": "2019-11-04T16:51:06.488+0200",
+        "rawLocation": { "rawX": -999.0, "rawY": -999.0, "unit": "FEET" },
+        "tagVendorData": null,
+        "bleTagInfo": null,
+        "locComputeType": "RSSI",
+        "manufacturer": "Unknown",
+        "maxDetectedRssi": {
+          "apMacAddress": "78:72:5d:04:a0:a0",
+          "band": "IEEE_802_11_B",
+          "slot": 0,
+          "rssi": -50,
+          "antennaIndex": 0,
+          "lastHeardInSeconds": 238
+        },
+        "hierarchyDetails": {
+          "campusParents": null,
+          "campus": { "id": "-9013405199015870347", "name": "Otaniemi" },
+          "building": { "id": "-9013405199015870103", "name": "V\u00e4re" },
+          "floor": { "id": "-9013405199015870099", "name": "3" },
+          "zones": null
+        },
+        "rssiEntries": [
+          {
+            "apMacAddress": "78:72:5d:04:a0:a0",
+            "band": "IEEE_802_11_B",
+            "slot": 0,
+            "antennaIndex": 0,
+            "rssi": -50,
+            "lastHeardSecs": 238
+          },
+          {
+            "apMacAddress": "78:72:5d:04:a0:a0",
+            "band": "IEEE_802_11_B",
+            "slot": 0,
+            "antennaIndex": 1,
+            "rssi": -50,
+            "lastHeardSecs": 238
+          },
+          {
+            "apMacAddress": "70:79:b3:e2:7f:80",
+            "band": "IEEE_802_11_B",
+            "slot": 0,
+            "antennaIndex": 1,
+            "rssi": -60,
+            "lastHeardSecs": 216
+          },
+          {
+            "apMacAddress": "70:79:b3:e2:7f:80",
+            "band": "IEEE_802_11_B",
+            "slot": 0,
+            "antennaIndex": 0,
+            "rssi": -60,
+            "lastHeardSecs": 216
+          },
+          {
+            "apMacAddress": "78:72:5d:04:75:c0",
+            "band": "IEEE_802_11_B",
+            "slot": 0,
+            "antennaIndex": 1,
+            "rssi": -62,
+            "lastHeardSecs": 238
+          },
+          {
+            "apMacAddress": "78:72:5d:04:75:c0",
+            "band": "IEEE_802_11_B",
+            "slot": 0,
+            "antennaIndex": 0,
+            "rssi": -62,
+            "lastHeardSecs": 238
+          },
+          {
+            "apMacAddress": "70:0f:6a:07:eb:60",
+            "band": "IEEE_802_11_B",
+            "slot": 0,
+            "antennaIndex": 1,
+            "rssi": -86,
+            "lastHeardSecs": 238
+          }
+        ],
+        "timestamp": 1572879066488
+      }
+    ]
+  },
+  {
+    "notifications": [
+      {
+        "notificationType": "locationupdate",
+        "subscriptionName": "Vare",
+        "eventId": 41732561,
+        "locationMapHierarchy": "Otaniemi>V\u00e4re>3",
+        "locationCoordinate": { "x": 140.32819, "y": 45.944477, "z": 0.0, "unit": "FEET" },
+        "geoCoordinate": {
+          "latitude": 60.185924758688834,
+          "longitude": 24.824832897619654,
+          "unit": "DEGREES"
+        },
+        "confidenceFactor": 80.0,
+        "apMacAddress": "00:fc:ba:81:b9:40",
+        "associated": true,
+        "username": "",
+        "ipAddress": null,
+        "ssid": "eduroam",
+        "band": "IEEE_802_11_B",
+        "floorId": "-9013405199015870099",
+        "floorRefId": "-9013405199015870099",
+        "entity": "WIRELESS_CLIENTS",
+        "deviceId": "00:00:6f:0a:f8:e4",
+        "lastSeen": "2019-11-04T16:50:57.127+0200",
+        "rawLocation": { "rawX": -999.0, "rawY": -999.0, "unit": "FEET" },
+        "tagVendorData": null,
+        "bleTagInfo": null,
+        "locComputeType": "RSSI",
+        "manufacturer": "Unknown",
+        "maxDetectedRssi": {
+          "apMacAddress": "78:72:5d:01:c2:20",
+          "band": "IEEE_802_11_B",
+          "slot": 0,
+          "rssi": -68,
+          "antennaIndex": 1,
+          "lastHeardInSeconds": 175
+        },
+        "hierarchyDetails": {
+          "campusParents": null,
+          "campus": { "id": "-9013405199015870347", "name": "Otaniemi" },
+          "building": { "id": "-9013405199015870103", "name": "V\u00e4re" },
+          "floor": { "id": "-9013405199015870099", "name": "3" },
+          "zones": null
+        },
+        "rssiEntries": [
+          {
+            "apMacAddress": "78:72:5d:01:c2:20",
+            "band": "IEEE_802_11_B",
+            "slot": 0,
+            "antennaIndex": 1,
+            "rssi": -68,
+            "lastHeardSecs": 175
+          },
+          {
+            "apMacAddress": "78:72:5d:01:c2:20",
+            "band": "IEEE_802_11_B",
+            "slot": 0,
+            "antennaIndex": 0,
+            "rssi": -68,
+            "lastHeardSecs": 175
+          },
+          {
+            "apMacAddress": "78:72:5d:0a:b0:c0",
+            "band": "IEEE_802_11_B",
+            "slot": 0,
+            "antennaIndex": 0,
+            "rssi": -70,
+            "lastHeardSecs": 237
+          },
+          {
+            "apMacAddress": "78:72:5d:0a:b0:c0",
+            "band": "IEEE_802_11_B",
+            "slot": 0,
+            "antennaIndex": 1,
+            "rssi": -70,
+            "lastHeardSecs": 237
+          },
+          {
+            "apMacAddress": "78:72:5d:0a:ae:60",
+            "band": "IEEE_802_11_A",
+            "slot": 0,
+            "antennaIndex": 1,
+            "rssi": -71,
+            "lastHeardSecs": 175
+          },
+          {
+            "apMacAddress": "78:72:5d:0a:ae:60",
+            "band": "IEEE_802_11_A",
+            "slot": 0,
+            "antennaIndex": 0,
+            "rssi": -71,
+            "lastHeardSecs": 175
+          }
+        ],
+        "timestamp": 1572879057127
+      }
+    ]
+  },
+  {
+    "notifications": [
+      {
+        "notificationType": "locationupdate",
+        "subscriptionName": "Vare",
+        "eventId": 41733305,
+        "locationMapHierarchy": "Otaniemi>V\u00e4re>0",
+        "locationCoordinate": { "x": 115.73442, "y": 39.371872, "z": 0.0, "unit": "FEET" },
+        "geoCoordinate": { "latitude": -999.0, "longitude": -999.0, "unit": "DEGREES" },
+        "confidenceFactor": 56.0,
+        "apMacAddress": "70:0f:6a:00:5e:40",
+        "associated": true,
+        "username": "",
+        "ipAddress": null,
+        "ssid": "aalto open",
+        "band": "IEEE_802_11_A",
+        "floorId": "-9013405199015870102",
+        "floorRefId": "-9013405199015870102",
+        "entity": "WIRELESS_CLIENTS",
+        "deviceId": "00:00:8e:3c:be:da",
+        "lastSeen": "2019-11-04T16:51:02.677+0200",
+        "rawLocation": { "rawX": -999.0, "rawY": -999.0, "unit": "FEET" },
+        "tagVendorData": null,
+        "bleTagInfo": null,
+        "locComputeType": "RSSI",
+        "manufacturer": "Unknown",
+        "maxDetectedRssi": {
+          "apMacAddress": "70:0f:6a:00:5e:40",
+          "band": "IEEE_802_11_B",
+          "slot": 0,
+          "rssi": -53,
+          "antennaIndex": 0,
+          "lastHeardInSeconds": 70
+        },
+        "hierarchyDetails": {
+          "campusParents": null,
+          "campus": { "id": "-9013405199015870347", "name": "Otaniemi" },
+          "building": { "id": "-9013405199015870103", "name": "V\u00e4re" },
+          "floor": { "id": "-9013405199015870102", "name": "0" },
+          "zones": null
+        },
+        "rssiEntries": [
+          {
+            "apMacAddress": "70:0f:6a:00:5e:40",
+            "band": "IEEE_802_11_B",
+            "slot": 0,
+            "antennaIndex": 0,
+            "rssi": -53,
+            "lastHeardSecs": 70
+          },
+          {
+            "apMacAddress": "70:0f:6a:00:5e:40",
+            "band": "IEEE_802_11_B",
+            "slot": 0,
+            "antennaIndex": 1,
+            "rssi": -53,
+            "lastHeardSecs": 70
+          },
+          {
+            "apMacAddress": "70:0f:6a:00:55:40",
+            "band": "IEEE_802_11_B",
+            "slot": 0,
+            "antennaIndex": 0,
+            "rssi": -58,
+            "lastHeardSecs": 188
+          },
+          {
+            "apMacAddress": "70:0f:6a:00:55:40",
+            "band": "IEEE_802_11_B",
+            "slot": 0,
+            "antennaIndex": 1,
+            "rssi": -58,
+            "lastHeardSecs": 188
+          },
+          {
+            "apMacAddress": "78:72:5d:0a:ad:80",
+            "band": "IEEE_802_11_B",
+            "slot": 0,
+            "antennaIndex": 0,
+            "rssi": -61,
+            "lastHeardSecs": 70
+          },
+          {
+            "apMacAddress": "78:72:5d:0a:ad:80",
+            "band": "IEEE_802_11_B",
+            "slot": 0,
+            "antennaIndex": 1,
+            "rssi": -61,
+            "lastHeardSecs": 70
+          },
+          {
+            "apMacAddress": "00:fc:ba:91:21:60",
+            "band": "IEEE_802_11_B",
+            "slot": 0,
+            "antennaIndex": 1,
+            "rssi": -62,
+            "lastHeardSecs": 226
+          },
+          {
+            "apMacAddress": "00:fc:ba:91:21:60",
+            "band": "IEEE_802_11_B",
+            "slot": 0,
+            "antennaIndex": 0,
+            "rssi": -62,
+            "lastHeardSecs": 226
+          }
+        ],
+        "timestamp": 1572879062677
+      }
+    ]
+  },
+  {
+    "notifications": [
+      {
+        "notificationType": "locationupdate",
+        "subscriptionName": "Vare",
+        "eventId": 41733348,
+        "locationMapHierarchy": "Otaniemi>V\u00e4re>2",
+        "locationCoordinate": { "x": 269.40884, "y": 299.25296, "z": 0.0, "unit": "FEET" },
+        "geoCoordinate": {
+          "latitude": 60.18513314491578,
+          "longitude": 24.8247200071831,
+          "unit": "DEGREES"
+        },
+        "confidenceFactor": 160.0,
+        "apMacAddress": "70:0f:6a:00:4a:80",
+        "associated": true,
+        "username": "",
+        "ipAddress": null,
+        "ssid": "eduroam",
+        "band": "IEEE_802_11_A",
+        "floorId": "-9013405199015870100",
+        "floorRefId": "-9013405199015870100",
+        "entity": "WIRELESS_CLIENTS",
+        "deviceId": "00:00:be:7f:4a:0d",
+        "lastSeen": "2019-11-04T16:51:08.188+0200",
+        "rawLocation": { "rawX": -999.0, "rawY": -999.0, "unit": "FEET" },
+        "tagVendorData": null,
+        "bleTagInfo": null,
+        "locComputeType": "RSSI",
+        "manufacturer": "Unknown",
+        "maxDetectedRssi": {
+          "apMacAddress": "70:79:b3:e2:84:e0",
+          "band": "IEEE_802_11_B",
+          "slot": 0,
+          "rssi": -71,
+          "antennaIndex": 0,
+          "lastHeardInSeconds": 230
+        },
+        "hierarchyDetails": {
+          "campusParents": null,
+          "campus": { "id": "-9013405199015870347", "name": "Otaniemi" },
+          "building": { "id": "-9013405199015870103", "name": "V\u00e4re" },
+          "floor": { "id": "-9013405199015870100", "name": "2" },
+          "zones": null
+        },
+        "rssiEntries": [
+          {
+            "apMacAddress": "70:79:b3:e2:84:e0",
+            "band": "IEEE_802_11_B",
+            "slot": 0,
+            "antennaIndex": 0,
+            "rssi": -71,
+            "lastHeardSecs": 230
+          },
+          {
+            "apMacAddress": "70:79:b3:e2:84:e0",
+            "band": "IEEE_802_11_B",
+            "slot": 0,
+            "antennaIndex": 1,
+            "rssi": -71,
+            "lastHeardSecs": 230
+          },
+          {
+            "apMacAddress": "70:79:b3:e2:83:60",
+            "band": "IEEE_802_11_B",
+            "slot": 0,
+            "antennaIndex": 1,
+            "rssi": -81,
+            "lastHeardSecs": 231
+          },
+          {
+            "apMacAddress": "70:79:b3:e2:83:60",
+            "band": "IEEE_802_11_B",
+            "slot": 0,
+            "antennaIndex": 0,
+            "rssi": -81,
+            "lastHeardSecs": 231
+          }
+        ],
+        "timestamp": 1572879068188
+      }
+    ]
+  },
+  {
+    "notifications": [
+      {
+        "notificationType": "locationupdate",
+        "subscriptionName": "Vare",
+        "eventId": 41733367,
+        "locationMapHierarchy": "Otaniemi>V\u00e4re>1",
+        "locationCoordinate": { "x": 226.1103, "y": 248.08546, "z": 0.0, "unit": "FEET" },
+        "geoCoordinate": {
+          "latitude": 60.1853187767706,
+          "longitude": 24.824678757631027,
+          "unit": "DEGREES"
+        },
+        "confidenceFactor": 104.0,
+        "apMacAddress": "NOT APPLICABLE",
+        "associated": false,
+        "username": "NOT APPLICABLE",
+        "ipAddress": ["NOT APPLICABLE"],
+        "ssid": "NOT APPLICABLE",
+        "band": "NOT APPLICABLE",
+        "floorId": "-9013405199015870101",
+        "floorRefId": "-9013405199015870101",
+        "entity": "WIRELESS_CLIENTS",
+        "deviceId": "00:00:d5:9b:ca:39",
+        "lastSeen": "2019-11-04T16:51:08.199+0200",
+        "rawLocation": { "rawX": -999.0, "rawY": -999.0, "unit": "FEET" },
+        "tagVendorData": null,
+        "bleTagInfo": null,
+        "locComputeType": "RSSI",
+        "manufacturer": "Unknown",
+        "maxDetectedRssi": {
+          "apMacAddress": "f4:db:e6:85:7c:40",
+          "band": "IEEE_802_11_B",
+          "slot": 0,
+          "rssi": -66,
+          "antennaIndex": 0,
+          "lastHeardInSeconds": 236
+        },
+        "hierarchyDetails": {
+          "campusParents": null,
+          "campus": { "id": "-9013405199015870347", "name": "Otaniemi" },
+          "building": { "id": "-9013405199015870103", "name": "V\u00e4re" },
+          "floor": { "id": "-9013405199015870101", "name": "1" },
+          "zones": null
+        },
+        "rssiEntries": [
+          {
+            "apMacAddress": "f4:db:e6:85:7c:40",
+            "band": "IEEE_802_11_B",
+            "slot": 0,
+            "antennaIndex": 0,
+            "rssi": -66,
+            "lastHeardSecs": 236
+          },
+          {
+            "apMacAddress": "f4:db:e6:85:7c:40",
+            "band": "IEEE_802_11_B",
+            "slot": 0,
+            "antennaIndex": 1,
+            "rssi": -66,
+            "lastHeardSecs": 236
+          }
+        ],
+        "timestamp": 1572879068199
+      }
+    ]
+  },
+  {
+    "notifications": [
+      {
+        "notificationType": "locationupdate",
+        "subscriptionName": "Ekonomiaukio y-siipi",
+        "eventId": 41733369,
+        "locationMapHierarchy": "Otaniemi>Ekonominaukio y-siipi>1-krs",
+        "locationCoordinate": { "x": 39.45913, "y": 27.123173, "z": 0.0, "unit": "FEET" },
+        "geoCoordinate": {
+          "latitude": 60.18615213543871,
+          "longitude": 24.822996125807066,
+          "unit": "DEGREES"
+        },
+        "confidenceFactor": 16.0,
+        "apMacAddress": "f4:db:e6:86:e6:80",
+        "associated": true,
+        "username": "",
+        "ipAddress": null,
+        "ssid": "aalto open",
+        "band": "IEEE_802_11_A",
+        "floorId": "-9013405199015869960",
+        "floorRefId": "-9013405199015869960",
+        "entity": "WIRELESS_CLIENTS",
+        "deviceId": "00:00:cd:9d:61:03",
+        "lastSeen": "2019-11-04T16:51:08.200+0200",
+        "rawLocation": { "rawX": -999.0, "rawY": -999.0, "unit": "FEET" },
+        "tagVendorData": null,
+        "bleTagInfo": null,
+        "locComputeType": "RSSI",
+        "manufacturer": "Unknown",
+        "maxDetectedRssi": {
+          "apMacAddress": "f4:db:e6:86:e6:80",
+          "band": "IEEE_802_11_B",
+          "slot": 0,
+          "rssi": -49,
+          "antennaIndex": 0,
+          "lastHeardInSeconds": 114
+        },
+        "hierarchyDetails": {
+          "campusParents": null,
+          "campus": { "id": "-9013405199015870347", "name": "Otaniemi" },
+          "building": { "id": "-9013405199015869961", "name": "Ekonominaukio y-siipi" },
+          "floor": { "id": "-9013405199015869960", "name": "1-krs" },
+          "zones": null
+        },
+        "rssiEntries": [
+          {
+            "apMacAddress": "f4:db:e6:86:e6:80",
+            "band": "IEEE_802_11_B",
+            "slot": 0,
+            "antennaIndex": 0,
+            "rssi": -49,
+            "lastHeardSecs": 114
+          },
+          {
+            "apMacAddress": "f4:db:e6:86:e6:80",
+            "band": "IEEE_802_11_B",
+            "slot": 0,
+            "antennaIndex": 1,
+            "rssi": -49,
+            "lastHeardSecs": 114
+          },
+          {
+            "apMacAddress": "f4:db:e6:86:e6:80",
+            "band": "IEEE_802_11_A",
+            "slot": 1,
+            "antennaIndex": 1,
+            "rssi": -51,
+            "lastHeardSecs": 38
+          },
+          {
+            "apMacAddress": "f4:db:e6:86:e6:80",
+            "band": "IEEE_802_11_A",
+            "slot": 1,
+            "antennaIndex": 0,
+            "rssi": -51,
+            "lastHeardSecs": 38
+          },
+          {
+            "apMacAddress": "f4:db:e6:86:e6:80",
+            "band": "IEEE_802_11_A",
+            "slot": 0,
+            "antennaIndex": 1,
+            "rssi": -54,
+            "lastHeardSecs": 52
+          },
+          {
+            "apMacAddress": "f4:db:e6:86:e6:80",
+            "band": "IEEE_802_11_A",
+            "slot": 0,
+            "antennaIndex": 0,
+            "rssi": -54,
+            "lastHeardSecs": 52
+          },
+          {
+            "apMacAddress": "f4:db:e6:87:52:c0",
+            "band": "IEEE_802_11_B",
+            "slot": 0,
+            "antennaIndex": 0,
+            "rssi": -57,
+            "lastHeardSecs": 108
+          },
+          {
+            "apMacAddress": "f4:db:e6:87:52:c0",
+            "band": "IEEE_802_11_B",
+            "slot": 0,
+            "antennaIndex": 1,
+            "rssi": -57,
+            "lastHeardSecs": 108
+          },
+          {
+            "apMacAddress": "f4:db:e6:45:ea:20",
+            "band": "IEEE_802_11_B",
+            "slot": 0,
+            "antennaIndex": 0,
+            "rssi": -58,
+            "lastHeardSecs": 52
+          },
+          {
+            "apMacAddress": "f4:db:e6:45:ea:20",
+            "band": "IEEE_802_11_B",
+            "slot": 0,
+            "antennaIndex": 1,
+            "rssi": -58,
+            "lastHeardSecs": 52
+          },
+          {
+            "apMacAddress": "f4:db:e6:45:ea:20",
+            "band": "IEEE_802_11_A",
+            "slot": 0,
+            "antennaIndex": 0,
+            "rssi": -64,
+            "lastHeardSecs": 73
+          },
+          {
+            "apMacAddress": "f4:db:e6:45:ea:20",
+            "band": "IEEE_802_11_A",
+            "slot": 0,
+            "antennaIndex": 1,
+            "rssi": -64,
+            "lastHeardSecs": 73
+          },
+          {
+            "apMacAddress": "f4:db:e6:86:99:c0",
+            "band": "IEEE_802_11_B",
+            "slot": 0,
+            "antennaIndex": 1,
+            "rssi": -66,
+            "lastHeardSecs": 73
+          },
+          {
+            "apMacAddress": "f4:db:e6:86:99:c0",
+            "band": "IEEE_802_11_B",
+            "slot": 0,
+            "antennaIndex": 0,
+            "rssi": -66,
+            "lastHeardSecs": 73
+          },
+          {
+            "apMacAddress": "f4:db:e6:87:52:c0",
+            "band": "IEEE_802_11_A",
+            "slot": 1,
+            "antennaIndex": 1,
+            "rssi": -67,
+            "lastHeardSecs": 18
+          },
+          {
+            "apMacAddress": "f4:db:e6:87:52:c0",
+            "band": "IEEE_802_11_A",
+            "slot": 1,
+            "antennaIndex": 0,
+            "rssi": -67,
+            "lastHeardSecs": 18
+          }
+        ],
+        "timestamp": 1572879068200
+      }
+    ]
+  }
+]
