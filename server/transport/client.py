@@ -72,13 +72,13 @@ async def get_points_once(session: ClientSession):
 
             point = Point(timestamp, deviceId, floor, lat, long, confidence)
             batch.append(point)
-            if deviceId in suspects and confidence <= 32:
-                log.info(point)
+            # if deviceId in suspects and confidence <= 32:
+            #     log.info(point)
                 # log.info('I C U')
-            # if len(batch) >= 999:
-            #     points.save(batch)
-            #     batch = []
-        # points.save(batch)
+            if len(batch) >= 999:
+                points.save(batch)
+                batch = []
+        points.save(batch)
     except:
         traceback.print_exc()
 
