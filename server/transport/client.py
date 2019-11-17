@@ -6,7 +6,7 @@ from typing import Callable, List
 import aiohttp
 from aiohttp import ClientSession
 
-from server.common import loop, log
+from server.common import loop
 from server.db import points
 from server.db.points import Point
 
@@ -74,7 +74,7 @@ async def get_points_once(session: ClientSession):
             batch.append(point)
             # if deviceId in suspects and confidence <= 32:
             #     log.info(point)
-                # log.info('I C U')
+            # log.info('I C U')
             if len(batch) >= 999:
                 points.save(batch)
                 batch = []
