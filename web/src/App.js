@@ -25,12 +25,14 @@ function App() {
   // debugger;
 
   return (
+    <>
     <div className="wrapper">
       {colors.map(color => <Point color={color} key={color}/>)}
+    </div>
       <h1 className="wow">
         Much WoW!
       </h1>
-    </div>
+      </>
   );
 }
 
