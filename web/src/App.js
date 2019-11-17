@@ -3,7 +3,7 @@ import Point from "./Point";
 
 import "./App.css";
 
-const COLOR_COUNT = 99;
+const COLOR_COUNT = 199;
 
 const randomColor = () => '#' + Math.floor(Math.random() * 16777215).toString(16);
 
