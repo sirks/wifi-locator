@@ -7,34 +7,23 @@ let timeout = null;
 
 function App() {
   const [index, setIndex] = useState(0);
-  const [done, setDone] = useState(true);
   const [data, setData] = useState([]);
 
   useEffect(() => {
-    if (done) {
-      fetch('http://localhost:5000/points')
-      .then(response => response.json())
-      .then(json => setData(json))
-      .finally(() => {
-        setDone(false);
-        setIndex(0);
-      })
-    }
-  }, [done]);
-
-
-  useEffect(() => {
-    // clearTimeout(timeout);
+    clearTimeout(timeout);
     timeout = setTimeout(() => {
       if (index >= data.length - 1) {
-        setDone(true);
+        fetch('http://localhost:5000/points')
+        .then(response => response.json())
+        .then(json => setData(json))
+        .finally(() => setIndex(0))
       } else {
         setIndex(index + 1);
       }
-    }, 3000);
-  }, [index]);
+    }, 1000);
+  }, [index, data.length]);
 
-  console.log(data, index, done);
+  console.log(data, index);
 
   return (
     <div className="wrapper">
